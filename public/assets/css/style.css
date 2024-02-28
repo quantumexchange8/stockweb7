@@ -1052,15 +1052,35 @@ support for no js
 	line-height: 60px;
 	font-weight: 300;
 }
+.title-fs-25 {
+	color:#4b4e53;
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: 300;
+}
+.title-fs-20 {
+	color:#7e8082;
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 17px;
+
+	font-weight: 300;
+}
 .line-3-100{
 	margin-top:15px;
 	height:3px;
 	width:100px;
 	background:#4b4e53;
 }
+.line-3-150{
+	margin-top:15px;
+	height:3px;
+	width:150px;
+	background:#4b4e53;
+}
 .fes1-box{
   position:relative;
-	padding-left: 55px;
+	padding-left:2px;
 	padding-bottom: 10px;
 }
 .fes1-box-icon{
@@ -1078,6 +1098,27 @@ support for no js
 	margin-bottom:10px;
 	margin-top:10px;
 }
+.fes2-box{
+  position:relative;
+	padding-left:48px;
+	padding-bottom: 10px;
+}
+.fes2-box-icon{
+	position:absolute;
+	top: 0;
+	left: 0;
+	color:#4b4e53;
+	font-size: 35px;
+}
+.fes2-box h3 {
+	color:#4b4e53;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:18px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
 
 /* #FEATURES 2-3 #NEW
 =====================================================*/
@@ -1092,7 +1133,7 @@ support for no js
 }
 .fes2-main-text-cont {
   margin: 0 auto;
-  padding: 145px 50px 140px 50px;
+  padding: 102px 15px 140px 18px;
   max-width:500px; 
 }
 .fes2-text-cont{
@@ -1268,7 +1309,7 @@ support for no js
 		height:250px;
 	}
 	.fes2-main-text-cont{
-		padding:70px 30px 70px 30px;
+		padding:33px 30px 70px 30px;
 	}
 }
 
@@ -2429,6 +2470,11 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 .blog2-post-title-cont {
   position:relative;
 }
+.icon-new {
+  position: absolute;
+  top: 24px;
+  left: 77px;
+}
 .post-prev-date-cont {
   position: absolute;
   top: 24px;
@@ -2805,6 +2851,15 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   letter-spacing: 5px;
   font-weight: 400;
   text-transform:uppercase;
+}
+.page-title2 {
+  margin-bottom:20px;
+  font-size: 34px;
+  line-height: 25px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-transform:uppercase;
+  color: #ffffff;
 }
 .page-title-font-big {
   margin-bottom:0px;
@@ -11213,9 +11268,16 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 }
 @media only screen and (max-width: 768px){
   .equal-height {
-    height:320px;
+    height:460px;
   }
 }
 .shop-ad-height {
   height:200px;
+}
+
+.text-justify{
+  text-align: justify;
+}
+.uppercase {
+  text-transform: uppercase;
 }

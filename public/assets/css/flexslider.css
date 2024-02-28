@@ -201,6 +201,13 @@ html[xmlns] .slides{
   font-weight:normal;
   letter-spacing:10px;
 }
+.norm-23-wide { 
+  width:100%;
+	font-size:23px;
+	line-height:23px;
+  font-weight:normal;
+  letter-spacing:10px;
+}
 .norm-40 { 
   font-size:40px;
 	line-height:44px;

@@ -17,9 +17,11 @@
 	<body>
 	
 		<!-- LOADER -->	
+		{{--
 		<div id="loader-overflow">
       <div id="loader3">Please enable JS</div>
-    </div>	
+    	</div>	
+	   --}}
 
 		<div id="wrap" class="boxed ">
 			<div class="grey-bg"> <!-- Grey BG  -->	
