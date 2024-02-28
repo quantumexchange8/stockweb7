@@ -132,11 +132,14 @@
                     
                     <div class="col-md-10 col-sm-12">
                     <div class="fes1-box wow fadeIn" >
-                        <p>Diversity, Equity and Inclusion (DEI) are constantly being worked into all we do. 
-                            To achieve our objectives, we must actively be inclusive, rethink and rework prior procedures, practices and norms, and positively utilise our spheres of influence. 
+                        <p>
+                          {{config('app.full_company_name')}} places a high priority on Diversity, Equity, and Inclusion (DEI). We are committed to creating a diverse and inclusive workplace where all employees are appreciated, respected, and given equal opportunity for professional growth and development. Guolian Securities Co. Ltd. believes that a diverse workforce delivers a variety of perspectives and ideas, resulting in greater creativity and better decision-making. 
                         </p>
                         <p>
-                            We are making DEI progress now and laying down the groundwork for an even bigger impact in the future by pursuing direct action in our company, from our investors and in our communities. 
+                          {{config('app.full_company_name')}} is committed to promoting equity and justice, ensuring that all employees have access to the resources and assistance they require for success. Guolian Securities Co. Ltd. aggressively seeks to provide an inclusive atmosphere in which people of all backgrounds feel encouraged to contribute their unique skills and experiences. 
+                        </p>
+                        <p>
+                          Furthermore,  {{config('app.full_company_name')}} is devoted to incorporating DEI principles into its business procedures, guaranteeing that its services and products meet the different needs of its customers. By implementing DEI, Guolian Securities hopes to foster a more dynamic, collaborative, and empathic company culture while providing great value to its clients and stakeholders.
                         </p>
                     </div>
                     </div>
@@ -146,7 +149,7 @@
                 
                 </div>
                 <div class="col-md-3">
-                <img src="{{ asset('assets/images/phone-with-arrow.png')}}" alt="img" class="wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1s" >
+                <img src="images/phone-with-arrow.png" alt="img" class="wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1s" >
                 </div>
             </div>
             </div>

@@ -1062,9 +1062,16 @@ support for no js
 .title-fs-20 {
 	color:#7e8082;
 	font-family: 'Lato',Arial,Helvetica,sans-serif;
-	font-size: 17px;
+	font-size: 20px;
 
-	font-weight: 300;
+	font-weight: 250;
+}
+.title-fs-18{
+	color:#7e8082;
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 18px;
+
+	font-weight: 250;
 }
 .line-3-100{
 	margin-top:15px;

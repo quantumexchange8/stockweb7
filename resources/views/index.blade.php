@@ -324,7 +324,7 @@
                     
                   <div class="col-md-10 col-sm-12">
                     <div class="fes1-box wow fadeIn" >
-                      <p class="title-fs-20">Guolian is aware of the significance of comprehending the specific circumstances, requirements, outcomes, and objectives of each individual client. Through the application of specified financial objectives, comprehensive due diligence, and cutting-edge industry research, we actively assist our customers in growing their assets, protecting them, and managing them.</p>
+                       <p class="title-fs-18">Guolian is aware of the significance of comprehending the specific circumstances, requirements, outcomes, and objectives of each individual client. Through the application of specified financial objectives, comprehensive due diligence, and cutting-edge industry research, we actively assist our customers in growing their assets, protecting them, and managing them.</p>
                     </div>
                   </div>
                       
@@ -356,7 +356,7 @@
                     <h2 class="section-title">OUR <span class="bold">SERVICES</span></h2>
                   </div>
               
-                <p class="mb-60">
+                <p class="mb-60 title-fs-18">
                   In order to meet the specific needs of each of our customers, {{config('app.short_company_name')}} is pleased to offer a wide range of specialised services.
                 </p>
               
