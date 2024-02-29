@@ -25,3 +25,7 @@ Route::get('about-us', function () {
 Route::get('our-services', function () {
     return view('our-services');
 });
+
+Route::get('our-method', function () {
+    return view('our-method');
+});

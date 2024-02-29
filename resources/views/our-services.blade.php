@@ -3,11 +3,13 @@
 
 
 @section('content')
+
+
 <div id="wrap" class="boxed ">
     <div class="grey-bg"> <!-- Grey BG  -->	
 
-<!-- PAGE TITLE LARGE IMG -->
-    <div class="page-title-cont page-title-large page-title-img grey-dark-bg pt-250" style="background-image: url(images/work-proc-bg.jpg)">
+        <!-- PAGE TITLE LARGE IMG -->
+    <div class="page-title-cont page-title-large page-title-img grey-dark-bg pt-250" style="background-image: url({{asset('assets/images/work-proc-bg.jpg')}})">
     <div class="relative container align-left">
         <div class="row">
         
@@ -145,6 +147,121 @@
   </div>
 </div>
 
+{{--
+
+<div id="wrap" class="boxed ">
+    <div class="grey-bg"> <!-- Grey BG  -->	
+
+        <!-- PAGE TITLE LARGE IMG -->
+    <div class="page-title-cont page-title-large page-title-img grey-dark-bg pt-250" style="background-image: url({{asset('assets/images/work-proc-bg.jpg')}})">
+    <div class="relative container align-left">
+        <div class="row">
+        
+        <div class="col-md-8">
+            <h1 class="page-title2">OUR SERVICES</h1>
+        
+        </div>
+        
+        <div class="col-md-4">
+            <div class="breadcrumbs">
+            <a href="index.html">Home</a> > <span class="bread-current">OUR SERVICES</span>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    </div>
+
+    </div>
+</div>
+
+<div id="about" class="page-section">
+    <div class="container fes1-cont">
+     <div class="row">
+  
+      <div class="col-md-12">
+  
+              <div class="row">
+              <div class="col-md-12">
+                  <div class="fes1-main-title-cont wow fadeInDown">
+                  <div class="title-fs-60">
+                      WHAT WE <span class="bold">OFFER?</span>
+                  </div>
+                  <div class="line-3-150"></div>
+                  <div class="title-fs-23 mt-20">
+                      At Guolian, we take pride in offering a range of special services designed to meet the specific and unique needs of our clients. With our extensive expertise and commitment to excellence, we strive to provide comprehensive investment solutions that foster financial growth and security. Some of our specialised services include:
+                  </div>
+                  
+                  </div>
+              </div>
+              </div>
+      </div>
+     </div>
+    </div>
+</div>
+
+
+
+<div class="page-section p-60-cont owl-white-bg  fullwidth-slider">
+    <div class="owl-white-bg fullwidth-slider p-50-cont">    
+        <div class="container relative">
+            <div class="row">
+            
+                <div class="col-sm-6 col-md-6 col-lg-6 wow fadeIn pb-70" >
+                
+                    <div class="post-prev-img">
+                      <a href="#"><img src="{{asset('assets/images/blog/constr1.jpg')}}" alt="img"></a>
+                    </div>
+                      
+                    <div class="post-prev-title">
+                      <h3><a href="#">HOME MAINTENANCE</a></h3>
+                    </div>
+                      
+                    <div class="post-prev-info">
+                      Lorem ipsum dolor
+                    </div>
+                      
+                    <div class="post-prev-text no-border">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
+                    </div>
+                  
+                  </div>
+              </div>
+        </div>
+
+        <div class="container relative">
+            <div class="row">
+            
+              <div class="col-md-7">
+                <blockquote class="testimonial-2">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quis, possimus alias!</p>
+                </blockquote>
+              </div>
+
+              <div class="col-md-4 col-md-offset-1">
+                <div class="ts-author-cont">
+                  <div class="ts-author-info">
+                    <div class="ts-name">
+                      <span class="bold">Jessica Holmes</span>
+                    </div>
+                    <div class="ts-type">CEO Company</div>
+                  </div>
+                  <div class="ts-author-img">
+                    <img src="images/ts-author.png" alt="photo" >
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+    </div>
+</div>
+
+--}}
+
+
+
 @section('scripts')
 <script>
     $(document).ready(function() {
@@ -172,7 +289,7 @@
         });
     });
 </script>
-
-
 @endsection
+
+
 @endsection

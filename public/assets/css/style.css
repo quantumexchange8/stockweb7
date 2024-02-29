@@ -1439,6 +1439,9 @@ support for no js
 .grey-light-bg{
 	background-color:#eee;
 }
+.grey-light2-bg{
+	background-color:#d4d4d4e5;
+}
 .grey-dark-bg, .header.no-transparent .header-wrapper.grey-dark-bg{
 	background-color:#303236;
 }
@@ -11275,15 +11278,27 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 }
 @media only screen and (max-width: 768px){
   .equal-height {
-    height:460px;
+    height:320px;
   }
 }
+.equal-height1 {
+  height:473px;
+}
+@media only screen and (max-width: 768px){
+  .equal-height1 {
+    height:392px;
+  }
+}
+
 .shop-ad-height {
   height:200px;
 }
 
 .text-justify{
   text-align: justify;
+}
+.text-center{
+  text-align: center;
 }
 .uppercase {
   text-transform: uppercase;

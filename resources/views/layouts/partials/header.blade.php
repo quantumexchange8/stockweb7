@@ -42,13 +42,11 @@
         <li id="menu-contact-info-big" class="megamenu">
           <a href="{{url('about-us')}}"><div class="main-menu-title">ABOUT US</div></a>
         </li>
-        <li id="menu-contact-info-big" class="megamenu">
-          <a href="{{url('our-services')}}"><div class="main-menu-title">SERVICES</div></a>
-        </li>
+    
         <!-- MENU ITEM -->
-        {{--
+       
         <li class="parent">
-          <a href="{{url('our-services')}}}"><div class="main-menu-title">OUR SERVICES</div></a>
+          <a href="{{url('our-services')}}"><div class="main-menu-title">OUR SERVICES</div></a>
           <ul class="sub">
             <li><a href="#">Tax-efficient Investments</a></li>
             <li><a href="#">Estate Planning</a></li>
@@ -57,10 +55,10 @@
             <li><a href="#">Mergers & Acquisitions</a></li>
           </ul>
         </li>
-        --}}
+       
         <!-- MENU ITEM -->
         <li id="menu-contact-info-big" class="megamenu">
-          <a href="#"><div class="main-menu-title">OUR METHOD</div></a>
+          <a href="{{url('our-method')}}"><div class="main-menu-title">OUR METHOD</div></a>
         </li>
        
         <!-- MENU ITEM -->

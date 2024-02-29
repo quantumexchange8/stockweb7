@@ -8,7 +8,7 @@
     <div class="grey-bg"> <!-- Grey BG  -->	
 
 <!-- PAGE TITLE LARGE IMG -->
-<div class="page-title-cont page-title-large page-title-img grey-dark-bg pt-250" style="background-image: url(images/work-proc-bg.jpg)">
+<div class="page-title-cont page-title-large page-title-img grey-dark-bg pt-250" style="background-image: url('{{asset('assets/images/work-proc-bg.jpg')}}')">
   <div class="relative container align-left">
     <div class="row">
        
@@ -28,7 +28,7 @@
 </div>
 
  
-        <!-- FEATURES 4 -->
+        <!-- ABOUT US DESCRIPTION -->
   <div class="page-section fes4-cont">
       <div class="container">
         <div class="row">
@@ -40,7 +40,7 @@
                 <div class="col-xs-12 col-sm-8 col-md-8">
                   <div class="fes4-box wow fadeIn" data-wow-delay="200ms">
                         <p class="title-fs-35">
-                          Since we first opened our doors in 2019, Guolian has steadily developed a reputation for being the go-to resource for investors who are looking for information before it is released to the public. Guolian has over 120 brokers that serve clients who are located in 43 countries and 5 continents. The company provides a combination of excellent returns and sustainable growth for its clients.
+                          Since we first opened our doors in 2019, {{config('app.short_company_name')}} has steadily developed a reputation for being the go-to resource for investors who are looking for information before it is released to the public. {{config('app.short_company_name')}} has over 120 brokers that serve clients who are located in 43 countries and 5 continents. The company provides a combination of excellent returns and sustainable growth for its clients.
                         </p>
                         <p class="title-fs-35">
                           There are those who have been where you are, so you don't need to face this challenge alone. Join us now and allow us to bring you to a better future by guiding you through the process.
@@ -51,63 +51,140 @@
       </div>
   </div>
 
-        <!--why choose us?-->
-        <div class="page-section">
-            <div class="container-fluid">
-                <div class="row">
-                    
-                    <div class="col-md-6 left-50 wow fadeInRight equal-height">
-                            <div class="fes2-main-text-cont">
-                                <div class="title-fs-45">
-                                    WHY<br>
-                                    <span class="bold uppercase">{{config('app.short_company_name')}} ?</span>
-                                </div>
-                                <div class="line-3-100"></div>
-                                <div class="fes2-text-cont">We are an organisation of professionals and specialists who possess distinct goals and principles that we all share, and minds that are open to new ideas. Stories of successful growth, whether they are told from the perspective of customers or staff, are the primary focus of our attention.</div>
-                            </div>
-                    </div>
-      
-                    <div class="col-md-6 right-50">
-                        <div class="row">
-                            <div class="fes3-img equal-height" ></div>
-                        </div>
-                    </div>
-      
-                </div>
-            </div>
+  <div class="page-section p-60-cont">
+    <div class="container">
+      <div class="col-md-12">
+        <div>
+          <div class="title-fs-45 uppercase keft-50">
+           Why
+
+              <span class="bold uppercase">{{config('app.short_company_name')}}?</span>
+          </div>
+          <div class="line-3-100"></div>
+          <div class="fes2-text-cont">
+            When considering the offering of wealth management services, it is of the utmost importance to choose a company that possesses an excellent track record, a comprehensive variety of offerings, and an approach that is centred on the customer. As a major financial institution, {{config('app.short_company_name')}} provides a compelling proposal for individuals who are looking for services related to wealth management.
+          </div>
+          <p class="mt-10 bold">Some of the reasons why a client ought to take into consideration Guolian Securities Co. Ltd. are as follows: </p>
         </div>
-        <!-- OUR OBJECTIVES-->
-        <div class="page-section">
-            <div class="container-fluid">
-                <div class="row">
-    
-                    <div class="col-md-6 wow fadeInLeft equal-height ">
-                        <div class="fes2-main-text-cont">
-                            <div class="title-fs-45">
-                                OUR<br>
-                                <span class="bold">OBJECTIVES</span>
-                            </div>
-                            <div class="line-3-70"></div>
-                            
-                            <div class="fes2-text-cont">
-                                <ul class="icon-list">
-                                    <li><i class="fa fa-check"></i>Offering our clients a degree of anonymity whilst also producing positive results </li>
-                                    <li><i class="fa fa-check"></i>Providing our clients with access to information that would not otherwise receive from a local bank or broker. </li>
-                                    <li><i class="fa fa-check"></i>Combining expertise knowledge with firm decision-making process modifications.</li>
-                                    <li><i class="fa fa-check"></i>Co-ordinated, trustworthy advice and guidance. </li>
-                                </ul></div>
-                        </div>
-                    </div>
-      
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="fes2-img equal-height"></div>
-                        </div>
-                    </div>
-      
-                </div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="icon-list">
+            <li><i class="fa fa-angle-right"></i><span class="bold"> Reputation and Expertise : </span></li>{{config('app.short_company_name')}} is renowned for its excellent reputation and substantial competence in the field of finance which it has earned over the years. The capacity of the firm to efficiently manage their wealth is something that clients can have faith in because it has a track record of offering high-quality services and a team of specialists with years of experience.
+            <li class="mt-10"><i class="fa fa-angle-right"></i><span class="bold">Diverse Range Of Services : </span> </li>The wealth management services offered by Guolian Securities Co. Ltd. are extensive and varied, and they are tailored to meet the specific requirements and objectives of each individual customer. We provide a full suite of solutions to assist clients in accomplishing their financial goals. These solutions include investment advice services, estate planning, and risk management.
+          </ul>
         </div>
+        <div class="col-md-6">
+          <ul class="icon-list">
+            <li><i class="fa fa-angle-right"></i><span class="bold"> Customised Approach :  </span></li>With the understanding that every customer has a unique set of financial circumstances and goals, {{config('app.short_company_name')}}  takes a personalised approach to the management of their clients' money. By taking the time to learn about the preferences, risk tolerance, and goals of the clients, the company is able to create strategies that are in line with the specific requirements of each unique client.
+
+            <li class="mt-10"><i class="fa fa-angle-right"></i><span class="bold">Research and Analysis :  </span> </li>The wealth management strategies that {{config('app.short_company_name')}} employs are informed by the company's extensive research capabilities and in-depth market analysis. With access to important insights and suggestions that are powered by data, clients are able to make informed decisions about their investments, which is a benefit to the clients.
+          </ul>
+        </div>
+
+      </div>
+      <div class="col-md-12">
+        <div>
+          <div class="fes2-text-cont">
+            In conclusion, {{config('app.short_company_name')}} stands out as an appealing option for those seeking wealth management services due to its solid reputation, extensive offers, personalised approach, research-driven tactics, and unwavering commitment to customer satisfaction.
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  	<!-- OBJECTIVES -->
+        <div class="page-section grey-light-bg p-60-cont">
+          <div class="container">
+            <div class="col-md-12">
+              <div>
+                <div class="title-fs-45">
+                  OUR 
+                    <span class="bold uppercase"> Objectives:</span>
+                </div>
+                <div class="line-3-100"></div>
+                <div class="fes2-text-cont">The objectives of Guolian Securities Co. Ltd are to provide its clients with comprehensive brokerage services and wealth management solutions. Guolian Securities Co. Ltd., a major securities firm, intends to fulfil the following objectives:</div>
+
+            </div>
+            </div>
+          </div>
+        </div>
+				<div class="page-section">
+					<div class="container-fluid">
+						<div class="row">
+            
+							<div class="col-md-6 wow fadeInLeft equal-height1">
+								<div class="fes2-main-text-cont">
+									<div class="title-fs-45 uppercase">
+										Client <br>
+										<span class="bold uppercase">Satisfaction</span>
+									</div>
+									<div class="line-3-70"></div>
+									<div class="fes2-text-cont">{{config('app.short_company_name')}} seeks to suit its clients' diversified demands by providing a broad range of financial products and services. The organisation attempts to deliver personalised solutions that are consistent with each client's financial goals and risk tolerance.</div>
+								</div>
+							</div>
+              
+							<div class="col-md-6">
+								<div class="row">
+									<div class="fes2-img equal-height"></div>
+								</div>
+							</div>
+              
+						</div>
+					</div>
+				</div>
+				<div class="page-section">
+					<div class="container-fluid">
+						<div class="row">
+							
+							<div class="col-md-6 left-50 wow fadeInRight equal-height1">
+									<div class="fes2-main-text-cont">
+										<div class="title-fs-45 uppercase">
+											Risk <br>
+											<span class="bold uppercase">Management</span>
+										</div>
+										<div class="line-3-100"></div>
+										<div class="fes2-text-cont">{{config('app.short_company_name')}} lays a strong emphasis on risk management. The corporation has built a strong risk management framework with clear objectives, principles, and organisational structures. Guolian Securities aspires to defend its clients' interests while also maintaining operational stability by successfully managing risks.</div>
+									</div>
+							</div>
+              
+              <div class="col-md-6 right-50">
+								<div class="row">
+									<div class="fes3-img equal-height" ></div>
+								</div>
+							</div>
+              
+						</div>
+					</div>
+				</div>
+        <div class="page-section">
+					<div class="container-fluid">
+						<div class="row">
+            
+							<div class="col-md-6 wow fadeInLeft equal-height1 ">
+								<div class="fes2-main-text-cont">
+									<div class="title-fs-45 uppercase">
+										Compliance <br>
+										<span class="bold uppercase"> and Ethics</span>
+									</div>
+									<div class="line-3-70"></div>
+									<div class="fes2-text-cont">{{config('app.short_company_name')}} has the highest levels of compliance and ethics in its operations. The company follows all applicable laws, regulations, and industry best practices to ensure transparency, fairness, and honesty in its interactions with clients, shareholders, and other stakeholders.</div>
+								</div>
+							</div>
+              
+							<div class="col-md-6">
+								<div class="row">
+									<div class="fes2-img equal-height"></div>
+								</div>
+							</div>
+              
+						</div>
+					</div>
+				</div>
+
+  	<!-- OBJECTIVES -->
 
 
   <!-- DIVERSITY, EQUITY -->
