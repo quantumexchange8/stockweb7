@@ -4,6 +4,7 @@
 
 @section('content')
 
+{{--
 
 <div id="wrap" class="boxed ">
     <div class="grey-bg"> <!-- Grey BG  -->	
@@ -146,8 +147,8 @@
    </div>
   </div>
 </div>
+--}}
 
-{{--
 
 <div id="wrap" class="boxed ">
     <div class="grey-bg"> <!-- Grey BG  -->	
@@ -198,98 +199,142 @@
       </div>
      </div>
     </div>
-</div>
-
-
-
-<div class="page-section p-60-cont owl-white-bg  fullwidth-slider">
-    <div class="owl-white-bg fullwidth-slider p-50-cont">    
+ 
+    <div class="owl-white-bg fullwidth-slider ">    
         <div class="container relative">
             <div class="row">
-            
                 <div class="col-sm-6 col-md-6 col-lg-6 wow fadeIn pb-70" >
-                
+                  
                     <div class="post-prev-img">
                       <a href="#"><img src="{{asset('assets/images/blog/constr1.jpg')}}" alt="img"></a>
                     </div>
                       
                     <div class="post-prev-title">
-                      <h3><a href="#">HOME MAINTENANCE</a></h3>
+                      <h3 class="uppercase"><a href="#">Tax-efficient Investments </a></h3>
                     </div>
                       
-                    <div class="post-prev-info">
-                      Lorem ipsum dolor
+                    <div class="post-prev-text text-justify pt-20">
+                        Minimising tax liabilities is essential for optimising returns on investment. Our team employs tax-effic ..
                     </div>
-                      
-                    <div class="post-prev-text no-border">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
-                    </div>
-                  
+                    <button type="button" class="btn btn-default btn-sm">Read More</button>
                   </div>
+              
+                  <div class="col-sm-6 col-md-6 col-lg-6 wow fadeIn pb-70" >
+                  
+                    <div class="post-prev-img">
+                      <a href="#"><img src="{{asset('assets/images/blog/constr1.jpg')}}" alt="img"></a>
+                    </div>
+                      
+                    <div class="post-prev-title">
+                      <h3 class="uppercase"><a href="#">Estate Planning </a></h3>
+                    </div>
+                      
+                    <div class="post-prev-text text-justify pt-20">
+                        At {{config('app.short_company_names')}} we understand that in order to ensure the financial security of future generations, estate .. 
+                    </div>
+                    <a href="{{url('about-us')}}"><button type="button" class="btn btn-default btn-sm">Read More</button></a>
+                  </div>
+                  
               </div>
+       
         </div>
-
         <div class="container relative">
             <div class="row">
-            
-              <div class="col-md-7">
-                <blockquote class="testimonial-2">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quis, possimus alias!</p>
-                </blockquote>
-              </div>
-
-              <div class="col-md-4 col-md-offset-1">
-                <div class="ts-author-cont">
-                  <div class="ts-author-info">
-                    <div class="ts-name">
-                      <span class="bold">Jessica Holmes</span>
+                <div class="col-sm-6 col-md-6 col-lg-6 wow fadeIn pb-70" >
+                  
+                    <div class="post-prev-img">
+                      <a href="#"><img src="{{asset('assets/images/blog/constr1.jpg')}}" alt="img"></a>
                     </div>
-                    <div class="ts-type">CEO Company</div>
+                      
+                    <div class="post-prev-title">
+                      <h3 class="uppercase"><a href="#">Retirement Planning </a></h3>
+                    </div>
+                      
+                    <div class="post-prev-text text-justify pt-20">
+                        One of the most important aspects of successful wealth management at {{config('app.short_company_name')}} is the ability to ..
+                    </div>
+                    <button type="button" class="btn btn-default btn-sm">Read More</button>
                   </div>
-                  <div class="ts-author-img">
-                    <img src="images/ts-author.png" alt="photo" >
-                  </div>
-                </div>
-              </div>
               
-            </div>
-          </div>
-
+                  <div class="col-sm-6 col-md-6 col-lg-6 wow fadeIn pb-70" >
+                  
+                    <div class="post-prev-img">
+                      <a href="#"><img src="{{asset('assets/images/blog/constr1.jpg')}}" alt="img"></a>
+                    </div>
+                      
+                    <div class="post-prev-title">
+                      <h3 class="uppercase"><a href="#">Capital Growth Services </a></h3>
+                    </div>
+                      
+                    <div class="post-prev-text text-justify pt-20">
+                        {{config('app.short_company_name')}} provides a wide range of Capital Growth services to help our clients reach their financial..
+                    </div>
+                    <a href="{{url('about-us')}}"><button type="button" class="btn btn-default btn-sm">Read More</button></a>
+                  </div>
+                  
+              </div>
+       
+        </div>
+        <div class="container relative">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 wow fadeIn pb-70" >
+                  
+                    <div class="post-prev-img">
+                      <a href="#"><img src="{{asset('assets/images/blog/constr1.jpg')}}" alt="img"></a>
+                    </div>
+                      
+                    <div class="post-prev-title">
+                      <h3 class="uppercase"><a href="#">Hedge Fund Services </a></h3>
+                    </div>
+                      
+                    <div class="post-prev-text text-justify pt-20">
+                        At {{config('app.short_company_name')}}, we provide a wide range of hedge fund services to fulfil our clients' diversified investment demands. Our hedge fund services  ..
+                    </div>
+                    <button type="button" class="btn btn-default btn-sm">Read More</button>
+                  </div>
+              
+                  <div class="col-sm-6 col-md-6 col-lg-6 wow fadeIn pb-70" >
+                  
+                    <div class="post-prev-img">
+                      <a href="#"><img src="{{asset('assets/images/blog/constr1.jpg')}}" alt="img"></a>
+                    </div>
+                      
+                    <div class="post-prev-title">
+                      <h3 class="uppercase"><a href="#">Trust Services </a></h3>
+                    </div>
+                      
+                    <div class="post-prev-text text-justify pt-20">
+                        {{config('app.short_company_name')}} provides a wide range of trust services to fulfil the different demands of our clients. Our trust services are ..
+                    </div>
+                    <a href="{{url('about-us')}}"><button type="button" class="btn btn-default btn-sm">Read More</button></a>
+                  </div>
+                  
+              </div>
+       
+        </div>
+        <div class="container relative">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 wow fadeIn pb-70" >
+                  
+                    <div class="post-prev-img">
+                      <a href="#"><img src="{{asset('assets/images/blog/constr1.jpg')}}" alt="img"></a>
+                    </div>
+                      
+                    <div class="post-prev-title">
+                      <h3 class="uppercase"><a href="#">Mergers & Acquisitions  </a></h3>
+                    </div>
+                      
+                    <div class="post-prev-text text-justify pt-20">
+                        In a large number of cases, a merger or acquisition can be crucial to the long-term success of a company. A company’s ..
+                    </div>
+                    <button type="button" class="btn btn-default btn-sm">Read More</button>
+                </div>
+        
+                  
+              </div>
+       
+        </div>
     </div>
 </div>
-
---}}
-
-
-
-@section('scripts')
-<script>
-    $(document).ready(function() {
-        // Define translations object
-        window.translations = {
-            readMore: "Read more..",
-            readLess: "Click to hide"
-        };
-
-        $('.read-more-content').hide();
-
-        $('.read-more-button').click(function(event) { // Pass the event object
-            event.preventDefault(); // Prevent the default behavior of the anchor element
-
-            var content = $(this).siblings('.read-more-content');
-            content.toggle();
-
-            // Update the link text based on content visibility and translations
-            var link = $(this);
-            if (content.is(':visible')) {
-                link.text(window.translations.readLess);
-            } else {
-                link.text(window.translations.readMore);
-            }
-        });
-    });
-</script>
-@endsection
-
 
 @endsection

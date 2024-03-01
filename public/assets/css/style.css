@@ -2415,7 +2415,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 }
 .post-prev-text {
   padding-bottom:20px;
-  margin-bottom:20px;
+  margin-bottom:0px;
   border-bottom:1px solid #eee;
 }
 .blog-more{
@@ -2865,7 +2865,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 .page-title2 {
   margin-bottom:20px;
   font-size: 34px;
-  line-height: 25px;
+  line-height: 30px;
   letter-spacing: 5px;
   font-weight: 400;
   text-transform:uppercase;
@@ -4713,7 +4713,7 @@ blockquote.custom-blockquote:before {
   float:left;
 }
 .post-author-container .comment-author {
-  margin-top:7px;
+  margin-top:-12px;
   margin-bottom:7px;
   font-size:16px;
 }
@@ -6272,7 +6272,7 @@ a:hover, a:focus {
 
 @media (max-width: 1024px) {
   .page-title-cont, .page-title-small {
-    padding-top:10px;
+    padding-top:38px;
     padding-bottom:40px;
   }
   .page-title-cont.page-title-large {
@@ -11303,3 +11303,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 .uppercase {
   text-transform: uppercase;
 }
+.active {
+color: #899499;
+}
+

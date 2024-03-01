@@ -35,7 +35,7 @@
                         <ul class="nav navbar-nav">
         
         <!-- MENU ITEM -->
-        <li class="current">
+        <li class="">
           <a href="{{ url('/') }}"><div class="main-menu-title">HOME</div></a>
         </li>
         <!-- MENU ITEM -->
@@ -48,11 +48,13 @@
         <li class="parent">
           <a href="{{url('our-services')}}"><div class="main-menu-title">OUR SERVICES</div></a>
           <ul class="sub">
-            <li><a href="#">Tax-efficient Investments</a></li>
-            <li><a href="#">Estate Planning</a></li>
-            <li><a href="#">Increasing Potential Capital</a></li>
-            <li><a href="#">Alternative Investments</a></li>
-            <li><a href="#">Mergers & Acquisitions</a></li>
+            <li><a href="{{url('service/tax-efficient-investment')}}">Tax-efficient Investments</a></li>
+            <li><a href="{{url('service/estate-planning')}}">Estate Planning</a></li>
+            <li><a href="{{url('service/retirement-planning')}}">Retirement Planning</a></li>
+            <li><a href="{{url('service/capital-growth-service')}}">Capital Growth Services</a></li>
+            <li><a href="{{url('service/hedge-fund')}}">Hedge Funds</a></li>
+            <li><a href="{{url('service/trust-service')}}">Trust Service</a></li>
+            <li><a href="{{url('service/merger-acquisition')}}">Mergers & Acquisitions</a></li>
           </ul>
         </li>
        
