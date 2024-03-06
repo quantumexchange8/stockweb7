@@ -1,7 +1,7 @@
-@extends('layouts.main')
-@section('title', 'Home | ' . config('app.full_company_name'))
+@extends('layouts.master')
+@section('title', 'Method | ' . config('app.full_company_name'))
 @section('content')
-<div class="page-title-cont page-title-large page-title-img grey-dark-bg pt-250" style="background-image: url('{{asset('assets/images/work-proc-bg.jpg')}}')">
+<div class="page-title-cont page-title-large page-title-img grey-dark-bg pt-250" style="background-image: url('{{asset('assets/images/revo-slider/citybg.jpg')}}')">
     <div class="relative container align-left">
       <div class="row">
          
@@ -11,8 +11,8 @@
         </div>
          
         <div class="col-md-4">
-          <div class="breadcrumbs">
-            <a href="index.html">Home</a> > <span class="bread-current">OUR METHOD</span>
+          <div class="breadcrumbs white-text">
+            <a href="{{url('/')}}">Home</a> <i class="icon icon-arrows-right"></i><span class="bread-current">OUR METHOD</span>
           </div>
         </div>
         
@@ -48,7 +48,7 @@
 					<div class="container">
 						<div class="row">
 							
-							<div class="col-md-6 wow fadeInRight">
+							<div class="col-md-6">
 									<div class="fes2-main-text-cont">
 										<div class="title-fs-45 uppercase">
 											Equity <br>
@@ -83,19 +83,18 @@
                             <div class="container">
                                 <div class="row">
                                     
-                                    <div class="col-md-6  grey-light-bg">
-                                            <div class="fes2-main-text-cont">
-                                                <div class="title-fs-45 uppercase">
-                                                    Comprehensive Investment<br>
-                                                    <span class="bold"> strategies</span>
-                                                </div>
-                                                <div class="line-3-100"></div>
-                                                <div class="fes2-text-cont"> Our skilled specialists use comprehensive investment techniques to identify unique market opportunities. We perform extensive research, analyse market trends, and evaluate risk considerations in order to make sound investment selections. Our goal is to provide attractive risk-adjusted returns to our clients. </div>
-                        
-                                            </div>
+                                <div class="col-md-6 grey-light-bg">
+                                    <div class="fes2-main-text-cont">
+                                        <div class="title-fs-45 uppercase">
+                                             Comprehensive Investment<br>
+                                            <span class="bold"> strategies</span>
+                                        </div>
+                                        <div class="line-3-100"></div>
+                                        <div class="fes2-text-cont"> Our skilled specialists use comprehensive investment techniques to identify unique market opportunities. We perform extensive research, analyse market trends, and evaluate risk considerations in order to make sound investment selections. Our goal is to provide attractive risk-adjusted returns to our clients. </div>
                                     </div>
+                                </div>
                     
-                                <div div class="col-md-6 wow fadeInRight">
+                                <div div class="col-md-6">
                                     <div class="fes2-main-text-cont">
                                         <div class="title-fs-45 uppercase">
                                             Transparency <br> and <br>
@@ -103,10 +102,8 @@
                                         </div>
                                         <div class="line-3-100"></div>
                                         <div class="fes2-text-cont">We believe that our clients deserve transparent and timely reporting. We provide regular updates on our investment performance, portfolio holdings, and risk metrics. This guarantees that our clients understand their investments and can make informed decisions.</div>
-                
                                     </div>
-                                    
-                                    </div>
+                                </div>
                     
                                 </div>
                             </div>

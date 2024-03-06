@@ -904,11 +904,13 @@ support for no js
 		-ms-transform: translateX(-50%) !important;
 		transform: translateX(-50%) !important;
 		-transform: translateZ(0);
-	}
-	.hide-0-736 {
-		display:none;
-		visibility: hidden;
-	}
+		-moz-transform: translateX(-50%) !important;
+		-o-transform: translateX(-50%) !important;
+}
+.hide-0-736 {
+  display:none;
+  visibility: hidden;
+}
 	/***** SLIDE 2 Captions	*****/
 	.dark-light-61.tp-resp-24 {
 		top:44%!important;
@@ -1194,7 +1196,7 @@ support for no js
 =====================================================*/
 .fes4-cont{
   padding-top:130px;
-	padding-bottom:80px;
+	padding-bottom:3px;
 }
 .fes4-box{
   margin-bottom:50px;
@@ -1224,7 +1226,7 @@ support for no js
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight:300;
 	font-size:30px;
-	line-height:36px;
+	line-height:45px;
 	color:#4b4e53; 
   border-left:#4b4e53 2px solid;
 }
@@ -1306,8 +1308,9 @@ support for no js
 		line-height: 40px;
 	}
 	.title-fs-45 {
-		font-size: 30px;
-		line-height: 30px;
+		font-size: 40px;
+		line-height: 46px;
+    padding-bottom:2px;
 	}
 	.line-3-100{
 		margin-top:10px;
@@ -1316,7 +1319,7 @@ support for no js
 		height:250px;
 	}
 	.fes2-main-text-cont{
-		padding:33px 30px 70px 30px;
+		padding:33px 30px 70px 22px;
 	}
 }
 
@@ -2474,7 +2477,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 }
 .blog2-post-title-cont .post-prev-title {
   padding:15px 0 15px 20px;
-  margin-left:120px;
+  margin-left:3px;
   border-left: #C9CACB 1px solid;
 }
 .blog2-post-title-cont {
@@ -2511,7 +2514,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
     padding-left:0;
   }
   .blog2-post-title-cont .post-prev-title {
-    margin-left:70px;
+    margin-left:2px;
   }
   .blog2-date-numb {
     font-size:30px;
@@ -2915,6 +2918,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 .page-title-cont.grey-dark-bg .bread-current{
   color:#fff;
 }
+
 .page-title-img {
   width: 100%;
 	display: block;	
@@ -2926,7 +2930,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   overflow: hidden;
   background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center -200px;
 }
 .page-title-small {
   padding-top:118px;
@@ -3019,7 +3023,7 @@ ul.contact-list li{
 =====================================================*/
 .contact-form-cont {
 	position: relative;
-  max-width:550px;
+  max-width:747px;
   padding:80px 50px 30px 60px;
 }
 .contact-form-container-left {
@@ -6283,6 +6287,7 @@ a:hover, a:focus {
   }
   .page-title-img {
     background-attachment: scroll;
+    background-position: center center;
   }
 }
 @media (max-width: 768px) {
@@ -9484,7 +9489,7 @@ img.mfp-img {
     display: none;
     position: relative;
     margin: 0;
-    padding: 0;#header-left 
+    padding: 0;
     background: #3e4045;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -11304,6 +11309,27 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   text-transform: uppercase;
 }
 .active {
-color: #899499;
+color:#E5E4E2;
 }
-
+.pd-all-container{
+  padding-top:40px;
+  padding-bottom: 40px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+.white-text{
+  color:#fFFFFF;
+}
+.text-footer{
+  font-size: 12px;
+}
+.footer-text-box {
+  background-color: #f9f9f9;
+ border: 1px solid #ddd;
+ padding: 20px;
+ border-radius: 15px;
+ margin-bottom: 20px;
+}
+.text-color-darkgrey{
+  color: 	#A9A9A9;
+}

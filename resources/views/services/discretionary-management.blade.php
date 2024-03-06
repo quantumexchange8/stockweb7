@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Estate Planning | ' . config('app.full_company_name'))
+@section('title', 'Discretionary Management | ' . config('app.full_company_name'))
 
 @section('content')
 
@@ -9,12 +9,12 @@
       <div class="row">
         
         <div class="col-md-7">
-          <h1 class="page-title">ESTATE PLANNING</h1>
+          <h1 class="page-title">Discretionary Management Services </h1>
         </div>
         
         <div class="col-md-5">
           <div class="breadcrumbs">
-            <a href="{{url('/')}}">Home</a><i class="icon icon-arrows-right"></i><a href="{{url('our-services')}}">OUR SERVICES</a><span class="slash-divider">/</span><span class="bread-current">ESTATE PLANNING</span>
+            <a href="{{url('/')}}">Home</a><i class="icon icon-arrows-right"></i><a href="{{url('our-services')}}">OUR SERVICES</a><span class="slash-divider">/</span><span class="bread-current">Discretionary Management Services </span>
           </div>
         </div>
         
@@ -36,15 +36,22 @@
               </div>
                 
               <div class="post-prev-title">
-                <h3 class="uppercase"> ESTATE PLANNING </h3>
+                <h3 class="uppercase">Discretionary Management Services </h3>
               </div>
                 
               <div class="post-prev-text no-border pt-20">
-                <p class="text-justify">At {{config('app.short_company_name')}} we understand that in order to ensure the financial security of future generations, estate planning is essential. The creation of a will, the establishment of trusts, the designation of beneficiaries, and the implementation of methods to minimise estate taxes are all fundamental components of proper estate planning. Clients have the ability to protect their wealth and ensure a seamless transfer of assets to their successors in accordance with their preferences if they take proactive measures to handle these problems.
+                <p class="text-justify"> {{config('app.short_company_name')}} is a financial services company that provides a variety of services, including discretionary management. Discretionary Management is a service in which a professional portfolio manager makes investing decisions on the client's behalf.
                 </p>
-                <p class="text-justify">We work alongside Estate Planning professionals to create detailed, bespoke strategies that align with our clients wishes, ensuring a smooth transferal of assets whilst minimising estate taxation. 
+                <p class="text-justify"> {{config('app.short_company_name')}}'s Discretionary Management services allow clients to entrust their investment portfolios to experienced experts who will actively manage and make investment decisions based on their knowledge and market analysis. This service is intended to give clients with personalised investment plans based on their financial objectives, risk tolerance, and investing preferences.
                 </p>
-              </div>
+                <p class="text-justify">Clients who use Discretionary Management services benefit from the investment specialists' expertise and knowledge at {{config('app.short_company_name')}} These specialists actively watch market trends, analyse financial data, and make intelligent investment decisions in order to maximise the success of the client's portfolios.</p>
+                <p class="text-justify">{{config('app.short_company_name')}} aspires to provide clients with comprehensive and dependable Discretionary Management services that assist them realise their investment goals. Whether it's managing a broad portfolio, maximising profits, or minimising risks, the company's professionals are committed to providing personalised investing solutions.
+                </p>
+                <p class="text-justify">One of our skilled financial advisors may provide more precise information and specialised guidance.
+                </p>
+               </div>
+
+       
             </div>
         
             <!-- DIVIDER -->
@@ -52,9 +59,9 @@
             
             <!-- WORK NAVIGATION -->
             <div class="work-navigation clearfix">
-              <a href="{{url('service/tax-efficient-investment')}}" class="work-prev"><span><span class="icon icon-arrows-left"></span>&nbsp;Prev</span></a>
+              <a href="{{url('service/merger-acquisition')}}" class="work-prev"><span><span class="icon icon-arrows-left"></span>&nbsp;Prev</span></a>
               <a href="{{url('our-services')}}" class="work-all"><span>Show All</span></a>
-              <a href="{{url('service/retirement-planning')}}" class="work-next"><span>Next&nbsp;<span class="icon icon-arrows-right"></span></span></a>
+              <a href="{{url('service/tax-efficient-investment')}}" class="work-next"><span>Next&nbsp;<span class="icon icon-arrows-right"></span></span></a>
             </div>
             
             <!-- DIVIDER -->
@@ -69,11 +76,11 @@
               <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" >
                   
                 <div class="post-prev-img">
-                  <a href="{{url('service/trust-service')}}"><img src="{{asset('assets/images/blog/post-prev-1.jpg')}}" alt="img"></a>
+                  <a href="{{url('service/merger-acquisition')}}"><img src="{{asset('assets/images/blog/post-prev-1.jpg')}}" alt="img"></a>
                 </div>
                   
                 <div class="post-prev-title">
-                  <h3 class="uppercase"><a href="{{url('service/trust-service')}}">Trust Services
+                  <h3 class="uppercase"><a href="{{url('service/retirement-planning')}}">Retirement Planning
                 </a></h3>
                 </div>
 
@@ -83,11 +90,11 @@
               <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" data-wow-delay="200ms" >
                   
                 <div class="post-prev-img">
-                  <a href="{{url('service/capital-growth-service')}}"><img src="{{asset('assets/images/blog/post-prev-2.jpg')}}" alt="img"></a>
+                  <a href="{{url('service/tax-efficient-investment')}}"><img src="{{asset('assets/images/blog/post-prev-2.jpg')}}" alt="img"></a>
                 </div>
                   
                 <div class="post-prev-title">
-                  <h3 class="uppercase"><a href="{{url('service/capital-growth-service')}}">Capital Growth Services</a></h3>
+                  <h3 class="uppercase"><a href="{{url('service/capital-growth-service')}}">Capital Growth Services  </a></h3>
                 </div>
 
               </div>
@@ -96,11 +103,11 @@
               <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" data-wow-delay="400ms" >
                   
                 <div class="post-prev-img">
-                  <a href="{{url('service/hedge-fund')}}"><img src="{{asset('assets/images/blog/post-prev-3.jpg')}}" alt="img"></a>
+                  <a href="{{url('service/estate-planning')}}"><img src="{{asset('assets/images/blog/post-prev-3.jpg')}}" alt="img"></a>
                 </div>
                   
                 <div class="post-prev-title">
-                  <h3 class="uppercase"><a href="{{url('service/hedge-fund')}}">Hedge Fund Services  </a></h3>
+                  <h3 class="uppercase"><a href="{{url('service/estate-planning')}}">Estate Planning   </a></h3>
                 </div>
               </div>
               
@@ -110,8 +117,6 @@
 
           <!-- SIDEBAR -->
           <div class="col-sm-4 col-md-3 col-md-offset-1">
-            
-            
             <!-- WIDGET -->
             <div class="widget">
               
@@ -120,16 +125,17 @@
               <div class="widget-body">
                 <ul class="clearlist widget-menu">
                   <li><a href="{{url('service/tax-efficient-investment')}}">Tax-efficient Investment</a></li>
-                  <li><a href="{{url('service/estate-planning')}}" class="active">Estate Planning </a></li>
+                  <li><a href="{{url('service/estate-planning')}}">Estate Planning </a></li>
                   <li><a href="{{url('service/retirement-planning')}}">Retirement Planning </a></li>
                   <li><a href="{{url('service/capital-growth-service')}}">Capital Growth Services</a></li>
                   <li> <a href="{{url('service/hedge-fund')}}">Hedge Fund Services </a> </li>
                   <li> <a href="{{url('service/trust-service')}}">Trust Services </a> </li>
                   <li> <a href="{{url('service/merger-acquisition')}}">Mergers & Acquisitions </a> </li>
-                  <li> <a href="{{url('service/discretionary-management-services')}}">Discretionary Management Services </a> </li>
+                  <li> <a href="{{url('service/discretionary-management-services')}}" class="active">Discretionary Management Services </a> </li>
                 </ul>
               </div>
             </div>
+   
           </div>
           
         </div>

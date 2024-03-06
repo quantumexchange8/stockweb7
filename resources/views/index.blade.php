@@ -1,26 +1,23 @@
-@extends('layouts.main')
+@extends('layouts.master')
 @section('title', 'Home | ' . config('app.full_company_name'))
 
 
 @section('content')
 
+      <!--HEADER TITLE--->
       <div class="relative">
         <div class="rs-fullscr-container">
           
           <div id="rs-fullwidth" class="tp-banner dark-bg" >
             <ul>	
-              <!-- SLIDE 1 -->
-              <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-thumb="{{asset('assets/images/revo-slider/terka-thumb.jpg')}}"  data-saveperformance="on"  data-title="HASWELL">
-                <!-- MAIN IMAGE -->
-                
-                <img src="images/revo-slider/dummy.png"  alt="slidebg1" data-lazyload="{{asset('assets/images/revo-slider/city-grey.jpg')}}" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-                
-                <!-- LAYERS -->
-                
-                <!--PARALLAX & OPACITY container -->
+         
+              <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-thumb="{{asset('assets/images/revo-slider/city-grey.jpg')}}"  data-saveperformance="on"  data-title="GUOLION">
+          
+                <img src="{{asset('assets/images/revo-slider/city-grey.jpg')}}"  alt="slidebg1" data-lazyload="{{asset('assets/images/revo-slider/city-grey.jpg')}}" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+
                 <div class="rs-parallaxlevel-4 opacity-scroll2">
                   <!-- LAYER NR. 1 -->
-                  <div class="tp-caption font-white light-69-wide sfb tp-resizeme"
+                  <div class="tp-caption font-white light-73-wide sfb tp-resizeme"
                     data-x="center" 
                     data-hoffset="0" 
                     data-y="center" 
@@ -32,11 +29,11 @@
                     data-splitout="none"
                     data-elementdelay="0.1"
                     data-endelementdelay="0.1"
-                    style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">WE ARE 
+                    style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">WE ARE <span class="bold uppercase">{{config('app.short_company_name')}}</span>
                   </div>
                   
                   <!-- LAYER NR. 2 -->
-                  <div class="tp-caption font-white light-73-wide tp-left sfb tp-resizeme hide-0-736 mt-30 mb-20 uppercase"
+                  <div class="tp-caption font-white norm-16-wide tp-left sfb tp-resizeme hide-0-736 uppercase"
                     data-x="center" 
                     data-hoffset="0" 
                     data-y="center" 
@@ -48,10 +45,9 @@
                     data-splitout="none"
                     data-elementdelay="0.1"
                     data-endelementdelay="0.1"
-                    style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><span class="bold">{{config('app.full_company_name')}}</span>
+                    style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">{{config('app.full_company_name')}}
                   </div>
-   
-
+                  
                   <!-- LAYER NR. 3 -->
                   <div class="tp-caption center-0-478 sfb"
                     data-x="center" 
@@ -65,274 +61,84 @@
                     data-splitout="none"
                     data-elementdelay="0.1"
                     data-endelementdelay="0.1"
-                    style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><a class="button medium thin hover-dark tp-button white" href="https://1.envato.market/1rOKNa">GET STARTED</a><a class="button medium thin hover-dark tp-button white ml-20" href="https://1.envato.market/GVZ26">CONTACT US</a>
+                    style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><a class="button medium thin tp-button white" href="{{url('about-us')}}">SEE MORE</a><a class="button medium thin hover-light tp-button white ml-20" href="{{url('contact-us')}}">CONTACT US</a>
                   </div>
+                  
                 </div>
               </li>
+
             </ul>
+        
           </div>
           
         </div>	
         
       </div>
 
+      <!--INTRO--->
       <div class="page-section p-110-cont">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 pb-40">
-                
-              <div class="fes1-main-title-cont wow fadeInDown">
-                <div class="title-fs-60">
-                  <span class="bold"> INTRO</span>
+            <div class="col-md-7"> 
+              <div class="col-md-12">
+                <div class="fes1-main-title-cont wow fadeInDown">
+                  <div class="title-fs-60">
+                    <span class="bold"> INTRO</span>
+                  </div>
+                  <div class="line-3-100"></div>
                 </div>
-                <div class="line-3-100"></div>
-              </div>
-          </div>
-          </div>
+                <div class="row wow fadeInDown">
+                  <div class="col-md-12 pb-40">
+                    <p class="title-fs-20 text-justify">
+                      {{config('app.short_company_name')}} is a prominent private equity enterprise that is headquartered in Mainland China and operates out of Hong Kong.
+                    </p>
+                    <p class="title-fs-20 text-justify">
+                      Through the provision of strategic investments and financial knowledge, we are able to unlock the full potential of a wide range of firms operating in a variety of industries.
+                    </p>
+                    <p class="title-fs-20 text-justify">
+                      We are committed to providing our clients with long-term value and generating growth, and we have the client-centric strategy and a great track record to back up our commitment to these goals.
+                    </p>
+                  </div>
+                </div>
+              </div>    
    
-          <div class="row">
-            <!-- TESTIMONIALS -->
-            <div class="col-md-12 pb-40">
-              <p class="title-fs-20">
-                {{config('app.short_company_name')}} is a prominent private equity enterprise that is headquartered in Mainland China and operates out of Hong Kong.
-              </p>
-              <p class="title-fs-20">
-                Through the provision of strategic investments and financial knowledge, we are able to unlock the full potential of a wide range of firms operating in a variety of industries.
-              </p>
-              <p class="title-fs-20">
-                We are committed to providing our clients with long-term value and generating growth, and we have the client-centric strategy and a great track record to back up our commitment to these goals.
-              </p>
             </div>
-           
-          </div>
-         
-        </div>
-        <!--OUR MISSION-->
-        <div class="container fes1-cont">
-          <div class="row">
-            
-            <div class="col-md-8">
-            
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="fes1-main-title-cont wow fadeInDown">
-                    <div class="title-fs-60">
-                      <span class="bold"> OUR MISSION</span>
-                    </div>
-                    <div class="title-fs-25 mt-10">
-                      is to help you achieve your goals. 
-                    </div>
-                    <div class="line-3-100"></div>
-                  </div>
-                </div>
-              </div>
-                  
-              <div class="row">
-                  
-                <div class="col-md-10 col-sm-12">
-                  <div class="fes1-box wow fadeIn" >
-                    <p class="title-fs-18">The mission of {{config('app.short_company_name')}} is to find attractive investment opportunities and to partner with innovative enterprises in order to fuel the success of such businesses. </p>
-                    <p class="title-fs-18">We work hard to accomplish our goal of providing great returns for our investors while also supporting sustainable growth and innovation within the businesses and industries that we support. </p>
-                    <p class="title-fs-18">Our team of seasoned professionals brings a wealth of expertise and understanding of the business to the table in order to steer our portfolio companies towards record profitability and the attainment of sustainable goals.</p>
-                    <p class="title-fs-18">{{config('app.short_company_name')}} is aware of the significance of comprehending the specific circumstances, requirements, outcomes, and objectives of each individual client. Through the application of specified financial objectives, comprehensive due diligence, and cutting-edge industry research, we actively assist our customers in growing their assets, protecting them, and managing them.</p>
-                  </div>
-                </div>
-                    
-            
-              </div>
-            
-            </div>
-            <div class="col-md-4">
-              <img src="{{ asset('assets/images/phone-with-arrow.png')}}" alt="img" class="wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1s" >
+            <div class="col-md-5">
+                <img src="{{ asset('assets/images/phone-with-arrow.png')}}" alt="img" class="wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1s" >
             </div>
           </div>
         </div>
       </div>
 
-        {{--
-        <!-- REVO SLIDER FULLSCREEN 1 -->
-				<div class="relative">
-					<div class="rs-fullscr-container">
-						
-						<div id="rs-fullscr" class="tp-banner" >
-							<ul>	
-								<!-- SLIDE 1 -->
-								<li data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-thumb="{{ asset('assets/images/revo-slider/rs-fullscr-thumb1.jpg') }}"  data-saveperformance="on"  data-title="BEGIN">
-									<!-- MAIN IMAGE -->
-									 
-									<img src="{{ asset('assets/images/revo-slider/dummy.png') }}"  alt="slidebg1" data-lazyload="{{ asset('assets/images/revo-slider/slide_1_1.jpg') }}" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-								
-									
-									<!-- LAYERS -->
 
-									<!-- LAYER NR. 0 BG CAPTIONS -->
-									<div class="tp-caption rs-parallaxlevel-4 zoomout"
-										data-x="left"
-										data-y="center" 
-										
-										data-speed="1300"
-										data-start="200"
-										
-										data-easing="Power3.easeInOut"
-										style="z-index: 0;">
-										<div class="slider-bg-white-cap"></div>
-									</div>
-									
-									<!--PARALLAX & OPACITY container -->
-									<div class="rs-parallaxlevel-4 opacity-scroll2">
-										<!-- LAYER NR. 1 -->
-										<div class="tp-caption dark-light-100 tp-left sfb tp-resizeme"
-											data-x="640"
-											data-y="205" 
-											data-speed="500"
-											data-start="850"
-											data-easing="Power1.easeInOut"
-											data-splitin="none"
-											data-splitout="none"
-											data-elementdelay="0.1"
-											data-endelementdelay="0.1"
-											style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Begin
-										</div>
-										
-										<!-- LAYER NR. 2 -->
-										<div class="tp-caption dark-black-100 tp-left sfb tp-resizeme"
-											data-x="650"
-											data-y="295" 
-											data-speed="500"
-											data-start="1050"
-											data-easing="Power1.easeInOut"
-											data-splitin="none"
-											data-splitout="none"
-											data-elementdelay="0.1"
-											data-endelementdelay="0.1"
-											style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">Anywhere
-										</div>
-										
-										<!-- LAYER NR. 3 LINE -->
-										 <div class="tp-caption slider-1-cap-line tp-left hide-0-736 sfb tp-resizeme"
-											data-x="650"
-											data-y="420" 
-											data-speed="1000"
-											data-start="1250"
-											data-easing="Power3.easeInOut"
-											data-splitin="none"
-											data-splitout="none"
-											data-elementdelay="0.1"
-											data-endelementdelay="0.1"
-											style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">
-											<div class="cap-line"></div>
-										</div> 			
-										
-										<!-- LAYER NR. 4 -->
-										<div class="tp-caption dark-light-32 fs16-when-0-736 tp-left sfb tp-resizeme"
-											data-x="650"
-											data-y="450" 
-											data-speed="900"
-											data-start="1500"
-											data-easing="Power3.easeInOut"
-											data-splitin="none"
-											data-splitout="none"
-											data-elementdelay="0.1"
-											data-endelementdelay="0.1"
-											style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">Your passion will guide you
-										</div>
-									</div>
-
-
-
-								</li>
-							</ul>
-					
-						</div>
-						
-					</div>	
-					
-					<!-- SCROLL ICON -->
-					<div class="local-scroll-cont">
-						<a href="#about" class="scroll-down smooth-scroll">
-              <div class="icon icon-arrows-down"></div>
-            </a>  
-					</div>
-					
-				</div>
-    
-				<!-- FEATURES 1 -->
-				<div id="about" class="page-section">
-					<div class="container fes1-cont">
-						<div class="row">
-            
-							<div class="col-md-4 fes1-img-cont wow fadeInUp mb-20">
-								<img src="images/phone-with-arrow.png" alt="img" >
-							</div>
-              
-							<div class="col-md-8">
-              
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="fes1-main-title-cont wow fadeInDown">
-                      <div class="title-fs-60">
-                        WE ARE<br>
-                        <span class="bold">CREATIVE</span>
-                      </div>
-                      <div class="line-3-100"></div>
-                    </div>
-                  </div>
-								</div>
-                    
-                <div class="row">
-                    
-                  <div class="col-md-6 col-sm-6">
-                    <div class="fes1-box wow fadeIn" >
-                      <div class="fes1-box-icon">
-                        <div class="icon icon-basic-mixer2"></div>
-                      </div>
-                      <h3>FULLY RESPONSIVE</h3>
-                      <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
-                    </div>
-                  </div>
-                      
-                  <div class="col-md-6 col-sm-6">
-                    <div class="fes1-box wow fadeIn" data-wow-delay="200ms">
-                      <div class="fes1-box-icon">
-                        <div class="icon icon-basic-lightbulb"></div>
-                      </div>
-                      <h3>RETINA READY</h3>
-                      <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
-                    </div>
-                  </div>
-                      
+      <!--OUR MISSION-->
+      <div class="page-section p-110-cont  grey-light-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="fes1-main-title-cont wow fadeInDown">
+                <div class="title-fs-60">
+                  <span class="bold"> OUR MISSION</span>
                 </div>
-                    
-                <div class="row">
-                    
-                  <div class="col-md-6 col-sm-6">
-                    <div class="fes1-box wow fadeIn" data-wow-delay="400ms">
-                      <div class="fes1-box-icon">
-                        <div class="icon icon-basic-helm"></div>
-                      </div>
-                      <h3>UNIQUE DESIGN</h3>
-                      <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
-                    </div>
-                  </div>
-                      
-                  <div class="col-md-6 col-sm-6">
-                    <div class="fes1-box wow fadeIn"  data-wow-delay="600ms">
-                      <div class="fes1-box-icon">
-                        <div class="icon icon-basic-settings"></div>
-                      </div>
-                      <h3>EASY TO CUSTOMIZE</h3>
-                      <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
-                    </div>
-                  </div>
-                  
-                </div>                    
-                    
-							</div>
-						
+                <div class="title-fs-25 mt-10">
+                  is to help you achieve your goals. 
+                </div>
+                <div class="line-3-100"></div>
+              </div>
             </div>
-					</div>
-				</div>
-  	--}}
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="fes1-box wow fadeInUp" >
+                <p class="title-fs-18 text-justify">The mission of {{config('app.short_company_name')}} is to find attractive investment opportunities and to partner with innovative enterprises in order to fuel the success of such businesses. </p>
+                <p class="title-fs-18 text-justify">We work hard to accomplish our goal of providing great returns for our investors while also supporting sustainable growth and innovation within the businesses and industries that we support. </p>
+                <p class="title-fs-18 text-justify">Our team of seasoned professionals brings a wealth of expertise and understanding of the business to the table in order to steer our portfolio companies towards record profitability and the attainment of sustainable goals.</p>
+                <p class="title-fs-18 text-justify">{{config('app.short_company_name')}} is aware of the significance of comprehending the specific circumstances, requirements, outcomes, and objectives of each individual client. Through the application of specified financial objectives, comprehensive due diligence, and cutting-edge industry research, we actively assist our customers in growing their assets, protecting them, and managing them.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 				<!-- DIVIDER -->
 				<hr class="mt-0 mb-0">			
@@ -341,7 +147,7 @@
         <div class="page-section clearfix">
           <div class="container">
             <div class="row">
-              <div class="col-md-12 mt-60">
+              <div class="col-md-12 mt-60 wow fadeInRight">
                 
                 <div class="mb-50">
                   <h2 class="section-title">OUR <span class="bold">SERVICES</span></h2>
@@ -362,10 +168,10 @@
                         <div class="icon icon-basic-lock-open"></div>
                       </div>
                       <h3>Financial Security</h3>
-                      <p>One of the most important aspects of the wealth management services that we provide is financial security. We take great satisfaction in ensuring that individuals and families are able to experience stability and peace of mind despite the dynamic nature of the evolving economic landscape. </p>
-                      <p>The ability to cover expenses, make investments for the future, and weather unanticipated financial problems without putting one's standard of life in jeopardy is the essence of what it means to be financially secure.</p>
-                      <p class="read-more-content">In order to achieve and maintain financial stability, it is necessary to take a holistic strategy that incorporates a variety of aspects of wealth management.</p>
-                      <a class="read-more-button uk-button uk-button-text " href="#">Read more..</a>
+                      <p class="text-justify">One of the most important aspects of the wealth management services that we provide is financial security. We take great satisfaction in ensuring that individuals and families are able to experience stability and peace of mind despite the dynamic nature of the evolving economic landscape. </p>
+                      <p class="text-justify">The ability to cover expenses, make investments for the future, and weather unanticipated financial problems without putting one's standard of life in jeopardy is the essence of what it means to be financially secure.</p>
+                      <p class="read-more-content text-justify">In order to achieve and maintain financial stability, it is necessary to take a holistic strategy that incorporates a variety of aspects of wealth management.</p>
+                      <a class="button small gray-light btn-4 btn-4aa read-more-button" href="#">Read more..<span aria-hidden="true" class="button-icon-anim arrow_carrot-right"></span></a>
                     </div>
                   </div>
                 </div>
@@ -376,13 +182,13 @@
                           <div class="icon icon-ecommerce-graph-increase"></div>
                         </div>
                         <h3>Portfolio Income</h3>
-                        <p>{{config('app.short_company_name')}} provides Income Portfolio services as part of its suite of financial services. We are primarily engaged in securities-related activities and have six business segments. {{config('app.short_company_name')}} provides Income Portfolio services such as securities brokerage, asset management, securities investing, margin trading, share transfer agency, and other financial services.
+                        <p class="text-justify">{{config('app.short_company_name')}} provides Income Portfolio services as part of its suite of financial services. We are primarily engaged in securities-related activities and have six business segments. {{config('app.short_company_name')}} provides Income Portfolio services such as securities brokerage, asset management, securities investing, margin trading, share transfer agency, and other financial services.
                         </p>
-                        <p class="read-more-content">Clients who use the Income Portfolio services can benefit from a wide selection of income-generating investment options. The company provides securities trading and brokerage services, letting clients to purchase and sell a variety of financial instruments. {{config('app.short_company_name')}} also offers financial leverage services, allowing clients to maximise their investment potential.
+                        <p class="read-more-content text-justify">Clients who use the Income Portfolio services can benefit from a wide selection of income-generating investment options. The company provides securities trading and brokerage services, letting clients to purchase and sell a variety of financial instruments. {{config('app.short_company_name')}} also offers financial leverage services, allowing clients to maximise their investment potential.
                         </p>
-                        <p class="read-more-content">Furthermore, the organisation sells wealth management products, giving clients access to investment options that match their financial goals. {{config('app.short_company_name')}}'s Income Portfolio services are designed to help clients optimise their investment portfolios and reach their desired income levels.</p>
-                        <p class="read-more-content">Overall, {{config('app.short_company_name')}}'s Income Portfolio services offer clients a full range of financial solutions for managing their investments and generating income. Whether it is securities brokerage, asset management, or margin trading, the company seeks to suit its clients' different demands and assist them in successfully navigating the financial markets.</p>
-                        <a class="read-more-button uk-button uk-button-text " href="#">Read more..</a>
+                        <p class="read-more-content text-justify">Furthermore, the organisation sells wealth management products, giving clients access to investment options that match their financial goals. {{config('app.short_company_name')}}'s Income Portfolio services are designed to help clients optimise their investment portfolios and reach their desired income levels.</p>
+                        <p class="read-more-content text-justify">Overall, {{config('app.short_company_name')}}'s Income Portfolio services offer clients a full range of financial solutions for managing their investments and generating income. Whether it is securities brokerage, asset management, or margin trading, the company seeks to suit its clients' different demands and assist them in successfully navigating the financial markets.</p>
+                        <a class="button small gray-light btn-4 btn-4aa read-more-button" href="#">Read more..<span aria-hidden="true" class="button-icon-anim arrow_carrot-right"></span></a>
                       </div>
                     </div>
                       
@@ -397,7 +203,7 @@
                         <div class="icon icon-basic-lock-open"></div>
                       </div>
                       <h3>Income Diversification</h3>
-                      <p>Investment diversification is a fundamental component of the financial services that {{config('app.short_company_name')}} provides to its clients. Through the diversification of their assets across a variety of asset classes, including equities, bonds, real estate, and commodities, our customers are able to reduce their exposure to risk and increase their potential for long-term development. Diversification serves as a hedge against the volatility of the market and the economic downturns that can occur, assisting in the preservation and growth of wealth over time.
+                      <p class="text-justify mb-20">Investment diversification is a fundamental component of the financial services that {{config('app.short_company_name')}} provides to its clients. Through the diversification of their assets across a variety of asset classes, including equities, bonds, real estate, and commodities, our customers are able to reduce their exposure to risk and increase their potential for long-term development. Diversification serves as a hedge against the volatility of the market and the economic downturns that can occur, assisting in the preservation and growth of wealth over time.
                       </p>
                     </div>
                   </div>
@@ -409,8 +215,8 @@
                           <div class="icon icon-ecommerce-graph-increase"></div>
                         </div>
                         <h3>Passive Income</h3>
-                        <p>{{config('app.short_company_name')}}'s Passive Income services help clients generate income from their investment portfolios. The organisation provides a variety of passive income alternatives, allowing clients to earn money without actively participating in frequent investment activity.</p>
-                        <p class="bold">{{config('app.short_company_name')}} offers a variety of passive income services, including:</p>
+                        <p class="text-justify">{{config('app.short_company_name')}}'s Passive Income services help clients generate income from their investment portfolios. The organisation provides a variety of passive income alternatives, allowing clients to earn money without actively participating in frequent investment activity.</p>
+                        <p class="bold text-justify">{{config('app.short_company_name')}} offers a variety of passive income services, including:</p>
             
                         <ul class="icon-list read-more-content">
                             <li><i class="fa fa-check"></i><span class="bold">Securities Investments: </span> Customers have the opportunity to invest in a wide variety of securities, including stocks, bonds, and mutual funds, in order to generate passive income through dividends, interest payments, or appreciation of their value.
@@ -425,209 +231,47 @@
                             <li><i class="fa fa-check"></i><span class="bold">Fixed Income Investments:</span> Customers have the opportunity to generate passive income by investing in fixed income instruments, such as bonds and treasury bills, which can generate interest payments on a regular basis.
                             </li>
                         </ul>
-                        <p class="read-more-content">Clients have the ability to diversify their investment portfolios and potentially earn income without actively managing their investments when they take advantage of the Passive Income services offered by {{config('app.short_company_name')}}. It is the intention of these services to supply customers with a consistent flow of passive income, so assisting them in accomplishing their preferred financial objectives.</p>
-                        <a class="read-more-button uk-button uk-button-text " href="#">Read more..</a>
+                        <p class="read-more-content text-justify">Clients have the ability to diversify their investment portfolios and potentially earn income without actively managing their investments when they take advantage of the Passive Income services offered by {{config('app.short_company_name')}}. It is the intention of these services to supply customers with a consistent flow of passive income, so assisting them in accomplishing their preferred financial objectives.</p>
+                        <a class="button small gray-light btn-4 btn-4aa read-more-button" href="#">Read more..<span aria-hidden="true" class="button-icon-anim arrow_carrot-right"></span></a>
                       </div>
                     </div>
                       
                 </div>
-
               </div>
-            </div><!--end of row-->
+            </div>
           </div> 
         </div>  
-
-        {{--
-        <!-- BLOG 1 -->
-        <div class="page-section pt-110-b-30-cont">
-          <div class="container">
-                
-            <div class="mb-50">
-              <h2 class="section-title pr-0">LATEST <span class="bold">NEWS</span><a href="blog-right-sidebar.html" class="section-more right">OUR BLOG</a>
-                  </h2>
-            </div>
-            
-            <div class="row">
-              
-              <!-- Post Item 1 -->
-              <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-70" >
-                  
-                <div class="post-prev-img">
-                  <a href="blog-single-sidebar-right.html"><img src="images/blog/post-prev-1.jpg" alt="img"></a>
-                </div>
-                  
-                <div class="post-prev-title">
-                  <h3><a href="blog-single-sidebar-right.html">TIME FOR MINIMALISM</a></h3>
-                </div>
-                  
-                <div class="post-prev-info">
-                  JULE 10<span class="slash-divider">/</span><a href="https://1.envato.market/1rOKNa">JOHN DOE</a>
-                </div>
-                  
-                <div class="post-prev-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
-                </div>
-                  
-                <div class="post-prev-more-cont clearfix">
-                  <div class="post-prev-more left">
-                    <a href="blog-single-sidebar-right.html" class="blog-more">READ MORE</a>
-                  </div>
-                  <div class="right" >
-                    <a href="blog-single-sidebar-right.html#comments" class="post-prev-count"><span aria-hidden="true" class="icon_comment_alt"></span><span class="icon-count">21</span></a>
-                    <a href="https://1.envato.market/1rOKNa" class="post-prev-count"><span aria-hidden="true" class="icon_heart_alt"></span><span class="icon-count">53</span></a>
-                    <a href="#" class="post-prev-count dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
-                      <span aria-hidden="true" class="social_share"></span>
-                    </a>
-                    <ul class="social-menu dropdown-menu dropdown-menu-right" role="menu">
-                      <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
-                      </li>
-                      <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                      <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                    </ul>
-                  </div>
-                </div>
-              
-              </div>
-              
-              <!-- Post Item 2 -->
-              <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-70" data-wow-delay="200ms" >
-                  
-                <div class="post-prev-img">
-                  <a href="blog-single-sidebar-right.html"><img src="images/blog/post-prev-2.jpg" alt="img"></a>
-                </div>
-                  
-                <div class="post-prev-title">
-                  <h3><a href="blog-single-sidebar-right.html">NEW TRENDS IN WEB DESIGN</a></h3>
-                </div>
-                  
-                <div class="post-prev-info">
-                  MAY 11<span class="slash-divider">/</span><a href="https://1.envato.market/1rOKNa">JOHN DOE</a>
-                </div>
-                  
-                <div class="post-prev-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
-                </div>
-                  
-                <div class="post-prev-more-cont clearfix">
-                  <div class="post-prev-more left">
-                    <a href="blog-single-sidebar-right.html" class="blog-more">READ MORE</a>
-                  </div>
-                  <div class="right" >
-                    <a href="blog-single-sidebar-right.html#comments" class="post-prev-count"><span aria-hidden="true" class="icon_comment_alt"></span><span class="icon-count">21</span></a>
-                    <a href="https://1.envato.market/1rOKNa" class="post-prev-count"><span aria-hidden="true" class="icon_heart_alt"></span><span class="icon-count">53</span></a>
-                    <a href="#" class="post-prev-count dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
-                      <span aria-hidden="true" class="social_share"></span>
-                    </a>
-                    <ul class="social-menu dropdown-menu dropdown-menu-right" role="menu">
-                      <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
-                      </li>
-                      <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                      <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                    </ul>
-                  </div>
-                </div>
-              
-              </div>
-              
-              <!-- Post Item 3 -->
-              <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-70" data-wow-delay="400ms" >
-                  
-                <div class="post-prev-img">
-                  <a href="blog-single-sidebar-right.html"><img src="images/blog/post-prev-3.jpg" alt="img"></a>
-                </div>
-                  
-                <div class="post-prev-title">
-                  <h3><a href="blog-single-sidebar-right.html">THE SOUND OF LIFE</a></h3>
-                </div>
-                  
-                <div class="post-prev-info">
-                  DECEMBER 21<span class="slash-divider">/</span><a href="https://1.envato.market/1rOKNa">JOHN DOE</a>
-                </div>
-                  
-                <div class="post-prev-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
-                </div>
-                  
-                <div class="post-prev-more-cont clearfix">
-                  <div class="post-prev-more left">
-                    <a href="blog-single-sidebar-right.html" class="blog-more">READ MORE</a>
-                  </div>
-                  <div class="right" >
-                    <a href="blog-single-sidebar-right.html#comments" class="post-prev-count"><span aria-hidden="true" class="icon_comment_alt"></span><span class="icon-count">21</span></a>
-                    <a href="https://1.envato.market/1rOKNa" class="post-prev-count"><span aria-hidden="true" class="icon_heart_alt"></span><span class="icon-count">53</span></a>
-                    <a href="#" class="post-prev-count dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
-                      <span aria-hidden="true" class="social_share"></span>
-                    </a>
-                    <ul class="social-menu dropdown-menu dropdown-menu-right" role="menu">
-                      <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
-                      </li>
-                      <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                      <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                    </ul>
-                  </div>
-                </div>
-              
-              </div>
-              
-            </div>
-            
-          </div>
-        </div>
-        <!-- BLOG 1 -->
-        --}}
 
 				<!-- DIVIDER -->
 				<hr class="mt-0 mb-0">	
                
-        
+@endsection   
 
-        
-        <!-- NEWS LETTER -->
-        <div class="page-section nl-cont">
-          <div class="container">
-            <div class="relative" >
-              <div id="mc_embed_signup" class="nl-form-container clearfix">
-                <form action="http://abcgomel.us9.list-manage.com/subscribe/post-json?u=ba37086d08bdc9f56f3592af0&amp;id=e38247f7cc&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletterform validate" target="_blank" novalidate>   <!-- EDIT THIS ACTION URL (add "post-json?u" instead of "post?u" and appended "&amp;c=?" to the end of this URL) -->
-                  <input type="email" value="" name="EMAIL" class="email nl-email-input" id="mce-EMAIL" placeholder="Enter your email" required>
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_ba37086d08bdc9f56f3592af0_e38247f7cc" tabindex="-1" value=""></div>
-          
-                  <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button medium gray">
-                </form>
-                <div id="notification_container"  ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
 @section('scripts')
 <script>
-    $(document).ready(function() {
-        // Define translations object
-        window.translations = {
-            readMore: "Read more..",
-            readLess: "Click to hide"
-        };
+      $(document).ready(function() {
+          // Define translations object
+          window.translations = {
+              readMore: "Read more..",
+              readLess: "Click to hide"
+          };
 
-        $('.read-more-content').hide();
+          $('.read-more-content').hide();
 
-        $('.read-more-button').click(function(event) { // Pass the event object
-            event.preventDefault(); // Prevent the default behavior of the anchor element
+          $('.read-more-button').click(function(event) { // Pass the event object
+              event.preventDefault(); // Prevent the default behavior of the anchor element
 
-            var content = $(this).siblings('.read-more-content');
-            content.toggle();
+              var content = $(this).siblings('.read-more-content');
+              content.toggle();
 
-            // Update the link text based on content visibility and translations
-            var link = $(this);
-            if (content.is(':visible')) {
-                link.text(window.translations.readLess);
-            } else {
-                link.text(window.translations.readMore);
-            }
-        });
-    });
+              // Update the link text based on content visibility and translations
+              var link = $(this);
+              if (content.is(':visible')) {
+                  link.text(window.translations.readLess);
+              } else {
+                  link.text(window.translations.readMore);
+              }
+          });
+      });
 </script>
-
-
-@endsection
 @endsection

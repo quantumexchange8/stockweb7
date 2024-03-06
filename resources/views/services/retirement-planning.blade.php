@@ -1,10 +1,10 @@
-@extends('layouts.main')
+@extends('layouts.master')
 @section('title', 'Home | ' . config('app.full_company_name'))
 
 @section('content')
 
 <!-- PAGE TITLE LARGE IMG -->
-<div class="page-title-cont page-title-small grey-light-bg">
+<div class="page-title-cont page-title-small grey-light-bg" style="background-image: url('{{asset('assets/images/revo-slider/citybg.jpg')}}')">
     <div class="relative container align-left">
       <div class="row">
         
@@ -14,7 +14,7 @@
         
         <div class="col-md-5">
           <div class="breadcrumbs">
-            <a href="{{url('/')}}">Home</a><span class="slash-divider">/</span><a href="{{url('our-services')}}">OUR SERVICES</a><span class="slash-divider">/</span><span class="bread-current">RETIREMENT PLANNING</span>
+            <a href="{{url('/')}}">Home</a><i class="icon icon-arrows-right"></i><a href="{{url('our-services')}}">OUR SERVICES</a><span class="slash-divider">/</span><span class="bread-current">RETIREMENT PLANNING</span>
           </div>
         </div>
         
@@ -126,6 +126,7 @@
                   <li> <a href="{{url('service/hedge-fund')}}">Hedge Fund Services </a> </li>
                   <li> <a href="{{url('service/trust-service')}}">Trust Services </a> </li>
                   <li> <a href="{{url('service/merger-acquisition')}}">Mergers & Acquisitions </a> </li>
+                  <li> <a href="{{url('service/discretionary-management-services')}}">Discretionary Management Services </a> </li>
                 </ul>
               </div>
             </div>

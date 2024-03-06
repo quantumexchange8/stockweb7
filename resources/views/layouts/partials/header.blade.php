@@ -1,24 +1,25 @@
 <!-- HEADER -->
-<header id="nav" class="header header-1">
+
+<header id="nav" class="header header-1 no-transparent mobile-no-transparent">
     <div class="header-wrapper">
       <div class="container-m-30 clearfix">
         <div class="logo-row">
         
           <!-- LOGO --> 
           <div class="logo-container-2">
-  <div class="logo-2">
-    <a href="index.html" class="clearfix">
-      <img src="{{ asset('assets/images/logo.png') }}" class="logo-img" alt="Logo">
-    </a>
-  </div>
-</div>
+            <div class="logo-2">
+              <a href="index.html" class="clearfix">
+                <img src="{{ asset('assets/images/logo.png') }}" class="logo-img" alt="Logo">
+              </a>
+            </div>
+          </div>
           <!-- BUTTON --> 
           <div class="menu-btn-respons-container">
               <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target="#main-menu .navbar-collapse">
                   <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
               </button>
           </div>
-       </div>
+        </div>
       </div>
 
       <!-- MAIN MENU CONTAINER -->
@@ -33,40 +34,45 @@
                       <!-- MAIN MENU LIST -->
                       <nav class="collapse collapsing navbar-collapse right-1024">
                         <ul class="nav navbar-nav">
-        
-        <!-- MENU ITEM -->
-        <li class="">
-          <a href="{{ url('/') }}"><div class="main-menu-title">HOME</div></a>
-        </li>
-        <!-- MENU ITEM -->
-        <li id="menu-contact-info-big" class="megamenu">
-          <a href="{{url('about-us')}}"><div class="main-menu-title">ABOUT US</div></a>
-        </li>
-    
-        <!-- MENU ITEM -->
+
+                          <!-- HOME -->
+                          <li class="{{ request()->is('/') ? 'current' : '' }}">
+                            <a href="{{ url('/') }}"><div class="main-menu-title">HOME</div></a>
+                          </li>
+                          
+                          <!-- ABOUT US -->
+                          <li class="parent {{ request()->is('about-us*') ? 'current' : '' }}">
+                            <a href="#"><div class="main-menu-title">COMPANY OVERVIEW</div></a>
+                            <ul class="sub">
+                              <li><a href="{{url('about-us')}}">About Us</a></li>
+                              <li><a href="{{url('about-us/philantrophy')}}">Philantrophy</a></li>
+                              <li><a href="{{url('about-us/esg-statement')}}">ESG Statement</a></li>
+                              <li><a href="{{url('about-us/modern-slavery')}}">Modern Slavery</a></li>
+                            </ul>
+                          </li>
        
-        <li class="parent">
-          <a href="{{url('our-services')}}"><div class="main-menu-title">OUR SERVICES</div></a>
-          <ul class="sub">
-            <li><a href="{{url('service/tax-efficient-investment')}}">Tax-efficient Investments</a></li>
-            <li><a href="{{url('service/estate-planning')}}">Estate Planning</a></li>
-            <li><a href="{{url('service/retirement-planning')}}">Retirement Planning</a></li>
-            <li><a href="{{url('service/capital-growth-service')}}">Capital Growth Services</a></li>
-            <li><a href="{{url('service/hedge-fund')}}">Hedge Funds</a></li>
-            <li><a href="{{url('service/trust-service')}}">Trust Service</a></li>
-            <li><a href="{{url('service/merger-acquisition')}}">Mergers & Acquisitions</a></li>
-          </ul>
-        </li>
-       
-        <!-- MENU ITEM -->
-        <li id="menu-contact-info-big" class="megamenu">
-          <a href="{{url('our-method')}}"><div class="main-menu-title">OUR METHOD</div></a>
-        </li>
-       
-        <!-- MENU ITEM -->
-        <li id="menu-contact-info-big" class="megamenu">
-          <a href="#"><div class="main-menu-title">CONTACT</div></a>
-        </li>
+                          <li class="parent {{ request()->is('service/*') ? 'current' : '' }}">
+                            <a href="{{url('our-services')}}"><div class="main-menu-title">OUR SERVICES</div></a>
+                            <ul class="sub">
+                              <li><a href="{{url('service/tax-efficient-investment')}}">Tax-efficient Investments</a></li>
+                              <li><a href="{{url('service/estate-planning')}}">Estate Planning</a></li>
+                              <li><a href="{{url('service/retirement-planning')}}">Retirement Planning</a></li>
+                              <li><a href="{{url('service/capital-growth-service')}}">Capital Growth Services</a></li>
+                              <li><a href="{{url('service/hedge-fund')}}">Hedge Funds</a></li>
+                              <li><a href="{{url('service/trust-service')}}">Trust Service</a></li>
+                              <li><a href="{{url('service/merger-acquisition')}}">Mergers & Acquisitions</a></li>
+                              <li><a href="{{url('service/discretionary-management-services')}}">Discretionary Management Services </a></li>
+                            </ul>
+                          </li>
+
+                          <li id="menu-contact-info-big" class="megamenu {{ request()->is('our-method') ? 'current' : '' }}">
+                            <a href="{{url('our-method')}}"><div class="main-menu-title">OUR METHOD</div></a>
+                          </li>
+                        
+                          <!-- MENU ITEM -->
+                          <li id="menu-contact-info-big" class="megamenu {{ request()->is('contact-us') ? 'current' : '' }}">
+                            <a href="{{url('contact-us')}}"><div class="main-menu-title">CONTACT</div></a>
+                          </li>
                         </ul>
             
                       </nav>
@@ -79,11 +85,9 @@
             <!-- END container-m-30 -->
           
       </div>
-      <!-- END main-menu-container -->
-      
-      <!-- SEARCH READ DOCUMENTATION -->
+ 
       <ul class="cd-header-buttons">
-          <li><a href="#"><span style="font-size: 34px; padding-top:10px;"><i class="vc_btn3-icon fa fa-user"></i></span></a></li>
+          <li><a href="{{url('login')}}"><span style="font-size: 34px; padding-top:10px;"><i class="vc_btn3-icon fa fa-user"></i></span></a></li>
       </ul> <!-- cd-header-buttons -->
       
       

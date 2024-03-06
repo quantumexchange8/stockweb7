@@ -53,3 +53,23 @@ Route::get('service/trust-service', function () {
 Route::get('service/merger-acquisition', function () {
     return view('services/merger-acquisition');
 });
+
+Route::get('contact-us', function () {
+    return view('contact');
+});
+Route::get('service/discretionary-management-services', function () {
+    return view('services/discretionary-management');
+});
+Route::get('about-us/philantrophy', function () {
+    return view('philantrophy');
+});
+Route::get('about-us/esg-statement', function () {
+    return view('esg-statement');
+});
+Route::get('about-us/modern-slavery', function () {
+    return view('modern-slavery');
+});
+
+Route::get('login', function () {
+    return view('login');
+});
