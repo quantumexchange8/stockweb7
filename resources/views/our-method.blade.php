@@ -50,7 +50,7 @@
 							
 							<div class="col-md-6">
 									<div class="fes2-main-text-cont">
-										<div class="title-fs-45 uppercase">
+										<div class="title-fs-45">
 											Equity <br>
 											<span class="bold">Financing</span>
 										</div>
@@ -61,7 +61,7 @@
               
                             <div class="col-md-6 wow grey-light-bg">
                             	<div class="fes2-main-text-cont">
-                                    <div class="title-fs-45 uppercase">
+                                    <div class="title-fs-45">
                                         Debt <br>
                                         <span class="bold">Financing</span>
                                     </div>
@@ -85,7 +85,7 @@
                                     
                                 <div class="col-md-6 grey-light-bg">
                                     <div class="fes2-main-text-cont">
-                                        <div class="title-fs-45 uppercase">
+                                        <div class="title-fs-45">
                                              Comprehensive Investment<br>
                                             <span class="bold"> strategies</span>
                                         </div>
@@ -96,7 +96,7 @@
                     
                                 <div div class="col-md-6">
                                     <div class="fes2-main-text-cont">
-                                        <div class="title-fs-45 uppercase">
+                                        <div class="title-fs-45">
                                             Transparency <br> and <br>
                                             <span class="bold"> Reporting</span>
                                         </div>
@@ -110,7 +110,7 @@
                 </div>  
 
                 
-                <div class="page-section p-60-cont">
+                <div class="page-section pb-60">
                     <div class="container">
                     <div class="col-md-12">
                         <div>
