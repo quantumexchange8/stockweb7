@@ -4,24 +4,25 @@
 
 @section('content')
 
-<div class="page-title-cont page-title-big grey-light-bg" style="background-image: url('{{asset('assets/images/revo-slider/citybg.jpg')}}')">
-    <div class="relative container align-left">
-      <div class="row">
-         
-        <div class="col-md-8">
-          <h1 class="page-title">CONTACT</h1>
-   
-        </div>
-         
-        <div class="col-md-4">
-          <div class="breadcrumbs">
-            <a href="{{url('/')}}">Home</a><i class="icon icon-arrows-right"></i><span class="bread-current">CONTACT</span>
-          </div>
-        </div>
-        
+<div class="page-title-cont page-title-large page-title-img grey-dark-bg pt-250" style="background-image: url('{{asset('assets/images/revo-slider/citybg.jpg')}}')">
+  <div class="relative container align-left">
+    <div class="row">
+       
+      <div class="col-md-8">
+        <h1 class="page-title2">CONTACT</h1>
+     
       </div>
+       
+      <div class="col-md-4">
+        <div class="breadcrumbs white-text">
+          <a href="{{url('/')}}">Home</a> <i class="icon icon-arrows-right"></i><span class="bread-current">CONTACT</span>
+        </div>
+      </div>
+      
     </div>
   </div>
+</div>
+
 
     <!-- CONTACT INFO SECTION 1 -->
 <div id="contact-link" class="page-section p-110-cont">
