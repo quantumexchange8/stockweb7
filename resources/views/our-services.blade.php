@@ -50,7 +50,7 @@
                           <h3><span class="bold">TAX-EFFICIENT INVESTMENTS</span></h3>
                
                       </div>
-                      <div class="mt-20">
+                      <div class="mt-20 text-justify">
                         Minimising tax liabilities is essential for optimising returns on investment. Our team employs tax-effici..
                       </div>
                       <a href="{{url('service/tax-efficient-investment')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>
@@ -64,7 +64,7 @@
                           </div>
                           <h3><span class="bold">ESTATE PLANNING </span></h3>
                       </div>
-                      <div class="mt-20">
+                      <div class="mt-20 text-justify">
                         At {{config('app.short_company_name')}} we understand that in order to ensure the financial security of future generations, estate..
                       </div>
                       <a href="{{url('service/estate-planning')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>
@@ -78,7 +78,7 @@
                           </div>
                           <h3><span class="bold">RETIREMENT PLANNING</span></h3>
                       </div>
-                      <div  class="mt-20">
+                      <div  class="mt-20 text-justify">
                         One of the most important aspects of successful wealth management at {{config('app.short_company_name')}} is the ability to..
                       </div>
                       <a href="{{url('service/retirement-planning')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>
@@ -95,7 +95,7 @@
                           </div>
                           <h3><span class="bold">CAPITAL GROWTH SERVICES</span></h3>
                       </div>
-                      <div  class="mt-20">
+                      <div  class="mt-20 text-justify">
                         {{config('app.short_company_name')}} provides a wide range of Capital Growth services to help our clients reach their financial..
                       </div>
                       <a href="{{url('service/capital-growth-service')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>
@@ -109,7 +109,7 @@
                           </div>
                           <h3><span class="bold">HEDGE FUND SERVICES</span></h3>
                       </div>
-                      <div class="mt-20">
+                      <div class="mt-20 text-justify">
                         At {{config('app.short_company_name')}}, we provide a wide range of hedge fund services to fulfil our clients' diversified investment.. 
                       </div>
                       <a href="{{url('service/hedge-fund')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>
@@ -123,7 +123,7 @@
                           </div>
                           <h3><span class="bold">TRUST SERVICES</span></h3>
                       </div>
-                      <div class="mt-20">
+                      <div class="mt-20 text-justify">
                         {{config('app.short_company_name')}} provides a wide range of trust services to fulfil the different demands of our clients. Our trust..
                       </div>
                       <a href="{{url('service/trust-service')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>
@@ -141,8 +141,8 @@
                           </div>
                           <h3><span class="bold uppercase">Mergers & Acquisitions </span></h3>
                       </div>
-                      <div  class="mt-20">
-                        {{config('app.short_company_name')}} provides a wide range of Capital Growth services to help our clients reach their financial..
+                      <div  class="mt-20 text-justify">
+                        In a large number of cases, a merger or acquisition can be crucial to the long-term success of a company. A company’s  ..
                       </div>
                       <a href="{{url('service/merger-acquisition')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>
                     </div>
@@ -156,7 +156,7 @@
                           </div>
                           <h3><span class="bold">DISCRETIONARY MANAGEMENT SERVICES</span></h3>
                       </div>
-                      <div>
+                      <div class="text-justify">
                         {{config('app.short_company_name')}} is a financial services company that provides a variety of services, including discretionary.. 
                       </div>
                       <a href="{{url('service/discretionary-management-services')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>

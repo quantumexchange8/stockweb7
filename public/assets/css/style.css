@@ -2303,8 +2303,18 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 .ads-img-cont {
   padding-top:50px;
   padding-bottom:45px;
+  padding-left:7px;
 }
-
+@media (max-width: 991px) and (min-width:741px) {
+  .ads-img-cont {
+    padding-left: 75px; /* New padding for max-width 991px */
+  }
+}
+@media (max-width: 740px) and (min-width:600px) {
+  .ads-img-cont {
+    padding-left: 2px; /* New padding for max-width 991px */
+  }
+}
 /* #VIDEO ADS 1 #NEW
 =====================================================*/
 .video-ads-bg {
