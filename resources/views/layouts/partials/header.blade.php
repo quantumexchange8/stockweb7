@@ -8,7 +8,7 @@
           <!-- LOGO --> 
           <div class="logo-container-2">
             <div class="logo-2">
-              <a href="index.html" class="clearfix">
+              <a href="{{url('/')}}" class="clearfix">
                 <img src="{{ asset('assets/images/logo.png') }}" class="logo-img" alt="Logo">
               </a>
             </div>
