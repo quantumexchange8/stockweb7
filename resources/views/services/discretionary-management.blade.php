@@ -32,7 +32,7 @@
             <!-- POST ITEM -->
             <div class="blog-post wow fadeIn pb-50">
               <div class="post-prev-img">
-                <a href="#"><img src="{{asset('assets/images/blog/post-wide-1.jpg')}}" alt="img"></a>
+                <a href="#"><img src="{{asset('assets/images/discretionary.jpg')}}" alt="img"></a>
               </div>
                 
               <div class="post-prev-title">
@@ -76,7 +76,7 @@
               <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" >
                   
                 <div class="post-prev-img">
-                  <a href="{{url('service/merger-acquisition')}}"><img src="{{asset('assets/images/blog/post-prev-1.jpg')}}" alt="img"></a>
+                  <a href="{{url('service/merger-acquisition')}}"><img src="{{asset('assets/images/retirement-plan.jpg')}}" alt="img"></a>
                 </div>
                   
                 <div class="post-prev-title">
@@ -90,7 +90,7 @@
               <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" data-wow-delay="200ms" >
                   
                 <div class="post-prev-img">
-                  <a href="{{url('service/tax-efficient-investment')}}"><img src="{{asset('assets/images/blog/post-prev-2.jpg')}}" alt="img"></a>
+                  <a href="{{url('service/tax-efficient-investment')}}"><img src="{{asset('assets/images/growth.jpg')}}" alt="img"></a>
                 </div>
                   
                 <div class="post-prev-title">
@@ -103,7 +103,7 @@
               <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" data-wow-delay="400ms" >
                   
                 <div class="post-prev-img">
-                  <a href="{{url('service/estate-planning')}}"><img src="{{asset('assets/images/blog/post-prev-3.jpg')}}" alt="img"></a>
+                  <a href="{{url('service/estate-planning')}}"><img src="{{asset('assets/images/estate.jpg')}}" alt="img"></a>
                 </div>
                   
                 <div class="post-prev-title">

@@ -85,47 +85,58 @@ Sheung Wan, Hong Kong</p>
                           
             <!-- CONTACT FORM -->
             <div>
-              <form id="contact-form" action="#" method="POST">
+              <form id="contact-form" onsubmit="submitFunc()" autocomplete="off">
               
                 <div class="row">
                   <div class="col-md-12 mb-30">
                     <!-- <label>Your name *</label> -->
-                    <input type="text" value="" data-msg-required="Please enter your name"  class="controled" name="name" id="name" placeholder="NAME" required>
+                    <input type="text" value="" data-msg-required="Please enter your name"  class="controled" name="name" id="msgName" placeholder="NAME" required>
                   </div>
                 </div>
                 
                 <div class="row">    
                   <div class="col-md-12 mb-30">
                     <!-- <label>Your email address *</label> -->
-                    <input type="email" value="" data-msg-required="Please enter your email address" data-msg-email="Please enter a valid email address" maxlength="100" class="controled" name="email" id="email" placeholder="EMAIL" required>
+                    <input type="email" value="" data-msg-required="Please enter your email address" data-msg-email="Please enter a valid email address" maxlength="100" class="controled" name="email" id="msgEmail" placeholder="EMAIL" required>
                     </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12 mb-30">
+                    <!-- <label>Your name *</label> -->
+                    <input type="text" value="" data-msg-required="Please enter your phone number"  class="controled" name="msgPhone" id="msgPhone" placeholder="PHONE NUMBER" required>
+                  </div>
                 </div>
             
                 <div class="row">
                   <div class="col-md-12 mb-40">
                     <!-- <label>Message *</label> -->
-                    <textarea maxlength="5000" data-msg-required="Please enter your message" rows="3" class="controled" name="message" id="message" placeholder="MESSAGE" required></textarea>
+                    <textarea maxlength="5000" data-msg-required="Please enter your message" rows="3" class="controled" name="message" id="msgMessage" placeholder="MESSAGE" required></textarea>
                   </div>
                 </div>
                 
                 <div class="row">
                   <div class="col-md-12 text-center-xxs">
-                    <input type="submit" value="SEND MESSAGE" class="button medium gray" data-loading-text="Loading...">
+                    <button class="button medium gray">Submit</button>
                   </div>
                 </div>
               </form>	
-              <div class="alert alert-success hidden animated fadeIn" id="contactSuccess" >
-                Thanks, your message has been sent to us.
-              </div>
-            
-              <div class="alert alert-danger hidden animated shake" id="contactError">
-                <strong>Error!</strong> There was an error sending your message.
-              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
+  <script type="text/javascript">
+    function submitFunc() {
+        var nameValue = encodeURIComponent(document.getElementById('msgName').value);
+        var emailValue = encodeURIComponent(document.getElementById('msgEmail').value);
+        var phoneValue = encodeURIComponent(document.getElementById('msgPhone').value);
+        var messageValue = encodeURIComponent(document.getElementById('msgMessage').value);
+
+        var emailBody = "Name: " + nameValue + "%0D%0AEmail: " + emailValue + "%0D%0APhone: " + phoneValue + "%0D%0AMessage: " + messageValue;
+
+        window.location.href = "mailto:info@guolianinternational.com?body=" + emailBody;
+    }
+</script>
 @endsection

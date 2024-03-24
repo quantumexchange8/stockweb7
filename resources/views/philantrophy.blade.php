@@ -76,7 +76,7 @@
             </div>
             <div class="col-md-6 wow fadeInRight">
                     <div class="ads-img-cont" >
-                        <img src="{{asset('assets/images/ads-noute.jpg')}}" alt="img">
+                        <img src="{{asset('assets/images/public-welfare.jpg')}}" alt="img">
                     </div>
             </div>
         </div>
@@ -98,7 +98,7 @@
             </div>
                 <div class="col-md-6 right-50 wow fadeInLeft">
                     <div class="ads-img-cont" >
-                        <img src="{{asset('assets/images/ads-phone.jpg')}}" alt="img">
+                        <img src="{{asset('assets/images/csr.jpg')}}" alt="img">
                     </div>
                 </div>
         </div>
@@ -120,7 +120,7 @@
             </div>
             <div class="col-md-6 wow fadeInRight">
                  <div class="ads-img-cont" >
-                        <img src="{{asset('assets/images/ads-noute.jpg')}}" alt="img">
+                        <img src="{{asset('assets/images/engagement.jpg')}}" alt="img">
                  </div>
             </div>
         </div>
@@ -143,7 +143,7 @@
 
                 <div class="col-md-6 right-50 wow fadeInLeft">
                     <div class="ads-img-cont" >
-                        <img src="{{asset('assets/images/ads-phone.jpg')}}" alt="img">
+                        <img src="{{asset('assets/images/partnerships.jpg')}}" alt="img">
                     </div>
                 </div>
                 <div class="col-md-12 text-center mb-50">

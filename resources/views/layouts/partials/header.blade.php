@@ -87,7 +87,7 @@
       </div>
  
       <ul class="cd-header-buttons">
-          <li><a href="{{url('login')}}"><span style="font-size: 34px; padding-top:10px;"><i class="vc_btn3-icon fa fa-user"></i></span></a></li>
+          <li><a href="{{url('https://app.guolianinternational.com/en/accounts/login/')}}"><span style="font-size: 34px; padding-top:10px;"><i class="vc_btn3-icon fa fa-user"></i></span></a></li>
       </ul> <!-- cd-header-buttons -->
       
       
