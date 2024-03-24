@@ -1149,7 +1149,7 @@ support for no js
 	margin-top:30px;
 }
 .fes2-img {
-  background: url(../images/fes2.jpg) 50% 50% no-repeat;
+  background: url(../images/client-satisfaction.jpg) 50% 50% no-repeat;
   
   width: 100%;
   display: block;	
@@ -1171,7 +1171,7 @@ support for no js
 	font-weight: 300;
 }
 .fes3-img {
-  background: url(../images/fes3.jpg) 50% 50% no-repeat;
+  background: url(../images/risk-management.jpg) 50% 50% no-repeat;
   background-size: cover;
   
   width: 100%;
@@ -1185,6 +1185,23 @@ support for no js
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.fes4-img {
+  background: url(../images/compliance.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  
+  width: 100%;
+  display: block;	
+  position: relative;
+  background-size: cover;
+     
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .line-3-70{
 	margin-top:11px;
 	height:3px;

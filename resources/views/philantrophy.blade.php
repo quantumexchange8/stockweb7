@@ -54,7 +54,7 @@
             </div>
                 <div class="col-md-6 right-50 wow fadeInLeft">
                     <div class="ads-img-cont" >
-                        <img src="{{asset('assets/images/ads-phone.jpg')}}" alt="img">
+                        <img src="{{asset('assets/images/fa.jpg')}}" alt="img">
                     </div>
                 </div>
         </div>

@@ -38,7 +38,7 @@
                       <div class="col-xs-12 col-sm-8 col-md-8">
                         <div class="fes4-box wow fadeInRight" data-wow-delay="200ms">
                               <p class="title-fs-35 text-justify">
-                                Since we first opened our doors in 2019, {{config('app.short_company_name')}} has steadily developed a reputation for being the go-to resource for investors who are looking for information before it is released to the public. {{config('app.short_company_name')}} has over 120 brokers that serve clients who are located in 43 countries and 5 continents. The company provides a combination of excellent returns and sustainable growth for its clients.
+                                Since we first opened our doors in 2020, {{config('app.full_company_name')}} has steadily developed a reputation for being the go-to resource for investors who are looking for information before it is released to the public. The company provides a combination of excellent returns and sustainable growth for its clients.
                               </p>
                               <p class="title-fs-35 text-justify">
                                 There are those who have been where you are, so you don't need to face this challenge alone. Join us now and allow us to bring you to a better future by guiding you through the process.
@@ -172,7 +172,7 @@
               
 							<div class="col-md-6">
 								<div class="row">
-									<div class="fes2-img equal-height"></div>
+									<div class="fes4-img equal-height"></div>
 								</div>
 							</div>
               
@@ -222,7 +222,7 @@
                 </div>
               
                 <div class="col-md-4 fes1-img-cont wow fadeInUp mb-20">
-                  <img src="{{asset('assets/images/phone-with-arrow.png')}}" alt="img" >
+                  <img src="{{asset('assets/images/diversity.jpg')}}" alt="img" >
                 </div>
                 
             
@@ -233,7 +233,7 @@
         <!-- ENVIRONMENTAL & SOCIAL -->
         <div class="page-section clearfix">
           <div class="fes7-img-cont col-md-5">
-            <div class="fes7-img" style="background-image: url({{asset('assets/images/fes7.jpg')}})"></div>
+            <div class="fes7-img" style="background-image: url({{asset('assets/images/esg.jpg')}})"></div>
           </div>
           
           <div class="container">

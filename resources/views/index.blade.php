@@ -17,7 +17,7 @@
 
                 <div class="rs-parallaxlevel-4 opacity-scroll2">
                   <!-- LAYER NR. 1 -->
-                  <div class="tp-caption font-white light-73-wide sfb tp-resizeme"
+                  <div class="tp-caption font-white light-52-wide sfb tp-resizeme"
                     data-x="center" 
                     data-hoffset="0" 
                     data-y="center" 
@@ -45,7 +45,7 @@
                     data-splitout="none"
                     data-elementdelay="0.1"
                     data-endelementdelay="0.1"
-                    style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">{{config('app.full_company_name')}}
+                    style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">TAX-EFFICIENT INVESTMENTS | ESTATE PLANNING | TRUST SERVICES | RETIREMENT PLANNING | HEDGE FUND SERVICES
                   </div>
                   
                   <!-- LAYER NR. 3 -->
@@ -104,7 +104,7 @@
    
             </div>
             <div class="col-md-5">
-                <img src="{{ asset('assets/images/phone-with-arrow.png')}}" alt="img" class="wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1s" >
+                <img src="{{ asset('assets/images/intro.jpg')}}" alt="img" class="wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1s" >
             </div>
           </div>
         </div>
@@ -165,7 +165,7 @@
                   <div class="col-md-12 col-sm-12">
                     <div class="fes7-box wow fadeIn" >
                       <div class="fes7-box-icon">
-                        <div class="icon icon-basic-lock-open"></div>
+                        <div class="icon icon-basic-lock"></div>
                       </div>
                       <h3>Financial Security</h3>
                       <p class="text-justify">One of the most important aspects of the wealth management services that we provide is financial security. We take great satisfaction in ensuring that individuals and families are able to experience stability and peace of mind despite the dynamic nature of the evolving economic landscape. </p>
@@ -179,7 +179,7 @@
                     <div class="col-md-12 col-sm-12">
                       <div class="fes7-box wow fadeIn" data-wow-delay="200ms">
                         <div class="fes7-box-icon">
-                          <div class="icon icon-ecommerce-graph-increase"></div>
+                          <div class="icon icon-basic-todo-txt"></div>
                         </div>
                         <h3>Portfolio Income</h3>
                         <p class="text-justify">{{config('app.short_company_name')}} provides Income Portfolio services as part of its suite of financial services. We are primarily engaged in securities-related activities and have six business segments. {{config('app.short_company_name')}} provides Income Portfolio services such as securities brokerage, asset management, securities investing, margin trading, share transfer agency, and other financial services.
@@ -200,7 +200,7 @@
                   <div class="col-md-12 col-sm-12">
                     <div class="fes7-box wow fadeIn" >
                       <div class="fes7-box-icon">
-                        <div class="icon icon-basic-lock-open"></div>
+                        <div class="icon icon-ecommerce-graph1"></div>
                       </div>
                       <h3>Income Diversification</h3>
                       <p class="text-justify mb-20">Investment diversification is a fundamental component of the financial services that {{config('app.short_company_name')}} provides to its clients. Through the diversification of their assets across a variety of asset classes, including equities, bonds, real estate, and commodities, our customers are able to reduce their exposure to risk and increase their potential for long-term development. Diversification serves as a hedge against the volatility of the market and the economic downturns that can occur, assisting in the preservation and growth of wealth over time.

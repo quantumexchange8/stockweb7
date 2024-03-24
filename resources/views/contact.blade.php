@@ -36,7 +36,10 @@
               </div>
               <div class="cis-text">
                 <h3><span class="bold">ADDRESS</span></h3>
-                <p>790 FOLSOM AVE, SAN FRANCISCO</p>
+                <p>Unit 2103-4, 21st Floor, 
+Li Po Chun Chambers, 
+189 Des Voeux Road Central, 
+Sheung Wan, Hong Kong</p>
               </div>
             </div>
           </div>
@@ -47,7 +50,7 @@
               </div>
               <div class="cis-text">
                 <h3><span class="bold">EMAIL</span></h3>
-                <p><a href="mailto:info@haswell.com">INFO@HASWELL.COM</a></p>
+                <p><a href="mailto:info@guolianinternational.com">info@guolianinternational.com</a></p>
               </div>
             </div>
           </div>
@@ -58,7 +61,7 @@
               </div>
               <div class="cis-text">
                 <h3><span class="bold">CALL US</span></h3>
-                <p>1-800-312-212, 1-800-311-101</p>
+                <p></p>
               </div>
             </div>
           </div>
@@ -71,7 +74,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6" >
-            <img src="{{asset('assets/images/static-media/landing-bg.jpg')}}" style="background-position:center">
+            <img src="{{asset('assets/images/contactus.jpg')}}" style="background-position:center">
         </div>
         <div class="col-md-6 col-sm-12  grey-light-bg">
           <div class="contact-form-cont">
@@ -82,7 +85,7 @@
                           
             <!-- CONTACT FORM -->
             <div>
-              <form id="contact-form" action="php/contact-form.php" method="POST">
+              <form id="contact-form" action="#" method="POST">
               
                 <div class="row">
                   <div class="col-md-12 mb-30">
@@ -110,14 +113,6 @@
                     <input type="submit" value="SEND MESSAGE" class="button medium gray" data-loading-text="Loading...">
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="checkbox small">
-                      <label><input type="checkbox" value="privacy" data-msg-required="Please accept the terms" id="agree" name="agree" class="checkbox" required>I agree to the terms of service</label>
-                    </div>
-                  </div>
-                </div>
-                
               </form>	
               <div class="alert alert-success hidden animated fadeIn" id="contactSuccess" >
                 Thanks, your message has been sent to us.

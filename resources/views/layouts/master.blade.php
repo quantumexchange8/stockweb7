@@ -11,10 +11,9 @@
         </title>
 
 		<!-- FAVICONS -->
-		<link rel="shortcut icon" href="{{ asset('assets/images/favicon/favicon.png') }}">
+		<link rel="shortcut icon" href="{{ asset('assets/images/favicon/favicon.ico') }}">
 		<link rel="apple-touch-icon" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}">
-		<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/images/favicon/apple-touch-icon-72x72.png') }}">
-		<link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/images/favicon/apple-touch-icon-114x114.png') }}">
+
 
 		<!-- CSS -->
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/rs-plugin/css/settings.min.css')}}" media="screen">
