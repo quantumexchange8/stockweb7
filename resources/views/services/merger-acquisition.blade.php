@@ -40,7 +40,7 @@
               </div>
                 
               <div class="post-prev-text no-border pt-20">
-                <p >In a large number of cases, a merger or acquisition can be crucial to the long-term success of a company. A company’s shareholders may benefit from the sale of a portion or the entirety of the company, while a company’s growth may be accelerated through the acquisition of another company. To assess possible targets for acquisition, merger partners as well as financial and strategic alternatives,  {{config('app.short_company_name')}}  offers both sell-side and buy-side advice services, depending entirely on your personal objectives. 
+                <p >In a large number of cases, a merger or acquisition can be crucial to the long-term success of a company. A company’s shareholders may benefit from the sale of a portion or the entirety of the company, while a company’s growth may be accelerated through the acquisition of another company. To assess possible targets for acquisition, merger partners as well as financial and strategic alternatives,  {{ config('app.full_company_name') }}  offers both sell-side and buy-side advice services, depending entirely on your personal objectives. 
 
                 </p>
               </div>
@@ -60,7 +60,7 @@
               </div>
 
               <div class="post-prev-text no-border">
-                <p >At {{config('app.short_company_name')}}, our special services aim to exceed client expectations by delivering comprehensive, tailored solutions for your investment success. 
+                <p >At {{ config('app.full_company_name') }}, our special services aim to exceed client expectations by delivering comprehensive, tailored solutions for your investment success. 
                     We are committed to building long-lasting relationships based on trust, transparency and superior client service. 
                 </p>
               </div>

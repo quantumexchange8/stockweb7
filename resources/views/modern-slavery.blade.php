@@ -32,7 +32,7 @@
     <div class="container">
         <div class="title-fs-45 uppercase keft-50 mb-50">MODERN <span class="bold uppercase">SLAVERY</span>   <div class="line-3-100"></div>
         </div>
-      <p class="bold mb-50">Through adherence to this disclaimer, {{config('app.short_company_name')}} hopes to communicate our steadfast commitment to moral behaviour and our duty to help end modern slavery.</p>
+      <p class="bold mb-50">Through adherence to this disclaimer, {{ config('app.full_company_name') }} hopes to communicate our steadfast commitment to moral behaviour and our duty to help end modern slavery.</p>
       <div class="row">
         
         <div class="col-md-12 wow fadeIn pb-30" >
@@ -50,7 +50,7 @@
               
             <div class="col-md-8">
               <div class="blog2-post-prev-text ">                     
-                Human rights advocacy and the highest ethical standards are priorities for {{config('app.short_company_name')}}, and they permeate every facet of our business. As part of this commitment, we understand that modern slavery is a global problem and that effective solutions are required. As a result, we have created the disclaimer that follows to clarify our position on contemporary slavery:          
+                Human rights advocacy and the highest ethical standards are priorities for {{ config('app.full_company_name') }}, and they permeate every facet of our business. As part of this commitment, we understand that modern slavery is a global problem and that effective solutions are required. As a result, we have created the disclaimer that follows to clarify our position on contemporary slavery:          
               </div>
             </div>
             
@@ -73,7 +73,7 @@
               
             <div class="col-md-8">
               <div class="blog2-post-prev-text ">                     
-                {{config('app.short_company_name')}} is committed to operating in a way that aligns with our core beliefs and values. We vehemently condemn modern slavery in all of its manifestations, including child labour, forced labour, and human trafficking.
+                {{ config('app.full_company_name') }} is committed to operating in a way that aligns with our core beliefs and values. We vehemently condemn modern slavery in all of its manifestations, including child labour, forced labour, and human trafficking.
               </div>
             </div>
             
@@ -118,7 +118,7 @@
                 
               <div class="col-md-8">
                 <div class="blog2-post-prev-text ">                     
-                    Strong standards and processes have been put in place by {{config('app.short_company_name')}} to stop any participation with modern slavery. These consist of policies for ethical sourcing, training programmes for staff members, and channels for reporting any issues pertaining to modern slavery.
+                    Strong standards and processes have been put in place by {{ config('app.full_company_name') }} to stop any participation with modern slavery. These consist of policies for ethical sourcing, training programmes for staff members, and channels for reporting any issues pertaining to modern slavery.
 
                 </div>
               </div>
@@ -162,7 +162,7 @@
                 
               <div class="col-md-8">
                 <div class="blog2-post-prev-text ">                     
-                  {{config('app.short_company_name')}} actively backs coalition projects and advocacy campaigns to fight contemporary slavery. In order to promote progress in this important field, we aim to interact with industry colleagues, relevant organisations, and stakeholders.
+                  {{ config('app.full_company_name') }} actively backs coalition projects and advocacy campaigns to fight contemporary slavery. In order to promote progress in this important field, we aim to interact with industry colleagues, relevant organisations, and stakeholders.
                 </div>
               </div>
               

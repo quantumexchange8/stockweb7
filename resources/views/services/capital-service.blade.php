@@ -40,7 +40,7 @@
               </div>
                 
               <div class="post-prev-text no-border pt-20">
-                <p > {{config('app.short_company_name')}} provides a wide range of Capital Growth services to help our clients reach their financial objectives and maximise their investment results. Our Capital Growth services are intended to give people, businesses, and institutions with the resources and knowledge they require to build wealth over time.
+                <p > {{ config('app.full_company_name') }} provides a wide range of Capital Growth services to help our clients reach their financial objectives and maximise their investment results. Our Capital Growth services are intended to give people, businesses, and institutions with the resources and knowledge they require to build wealth over time.
                 </p>
               </div>
               <div id="accordions" class="bs-docs-section mb-50">
@@ -73,7 +73,7 @@
               </div>
              <div class="post-prev-text no-border">
               <p > 
-                {{config('app.short_company_name')}} is committed to providing exceptional Capital Growth services that integrate investment expertise, risk management, and client-centered solutions. Trust us to help you achieve long-term capital growth and financial success.</p>
+                {{ config('app.full_company_name') }} is committed to providing exceptional Capital Growth services that integrate investment expertise, risk management, and client-centered solutions. Trust us to help you achieve long-term capital growth and financial success.</p>
              </div>
             </div>
         

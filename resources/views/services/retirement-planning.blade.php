@@ -40,7 +40,7 @@
               </div>
                 
               <div class="post-prev-text no-border pt-20">
-                <p >One of the most important aspects of successful wealth management at {{config('app.short_company_name')}} is the ability to effectively plan for retirement. In order to accomplish this, it is necessary for us to establish distinct objectives for retirement, to maximise contributions to retirement accounts, and to devise a withdrawal strategy that is sustainable throughout retirement. 
+                <p >One of the most important aspects of successful wealth management at {{ config('app.full_company_name') }} is the ability to effectively plan for retirement. In order to accomplish this, it is necessary for us to establish distinct objectives for retirement, to maximise contributions to retirement accounts, and to devise a withdrawal strategy that is sustainable throughout retirement. 
                 </p>
                 <p >Our esteemed clients are able to enjoy their retirement years with self-assurance if they meticulously plan for the future. This is because they are aware that they have the financial means to maintain the lifestyle that they wish throughout their retirement years.
                 </p>

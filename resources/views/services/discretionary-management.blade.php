@@ -40,12 +40,12 @@
               </div>
                 
               <div class="post-prev-text no-border pt-20">
-                <p > {{config('app.short_company_name')}} is a financial services company that provides a variety of services, including discretionary management. Discretionary Management is a service in which a professional portfolio manager makes investing decisions on the client's behalf.
+                <p > {{ config('app.full_company_name') }} is a financial services company that provides a variety of services, including discretionary management. Discretionary Management is a service in which a professional portfolio manager makes investing decisions on the client's behalf.
                 </p>
-                <p > {{config('app.short_company_name')}}'s Discretionary Management services allow clients to entrust their investment portfolios to experienced experts who will actively manage and make investment decisions based on their knowledge and market analysis. This service is intended to give clients with personalised investment plans based on their financial objectives, risk tolerance, and investing preferences.
+                <p > {{ config('app.full_company_name') }}'s Discretionary Management services allow clients to entrust their investment portfolios to experienced experts who will actively manage and make investment decisions based on their knowledge and market analysis. This service is intended to give clients with personalised investment plans based on their financial objectives, risk tolerance, and investing preferences.
                 </p>
-                <p >Clients who use Discretionary Management services benefit from the investment specialists' expertise and knowledge at {{config('app.short_company_name')}} These specialists actively watch market trends, analyse financial data, and make intelligent investment decisions in order to maximise the success of the client's portfolios.</p>
-                <p >{{config('app.short_company_name')}} aspires to provide clients with comprehensive and dependable Discretionary Management services that assist them realise their investment goals. Whether it's managing a broad portfolio, maximising profits, or minimising risks, the company's professionals are committed to providing personalised investing solutions.
+                <p >Clients who use Discretionary Management services benefit from the investment specialists' expertise and knowledge at {{ config('app.full_company_name') }} These specialists actively watch market trends, analyse financial data, and make intelligent investment decisions in order to maximise the success of the client's portfolios.</p>
+                <p >{{ config('app.full_company_name') }} aspires to provide clients with comprehensive and dependable Discretionary Management services that assist them realise their investment goals. Whether it's managing a broad portfolio, maximising profits, or minimising risks, the company's professionals are committed to providing personalised investing solutions.
                 </p>
                 <p >One of our skilled financial advisors may provide more precise information and specialised guidance.
                 </p>

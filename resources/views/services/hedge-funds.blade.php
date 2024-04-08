@@ -40,7 +40,7 @@
               </div>
                 
               <div class="post-prev-text no-border pt-20">
-                <p > At {{config('app.short_company_name')}}, we provide a wide range of hedge fund services to fulfil our clients' diversified investment demands. Our hedge fund services are intended to offer sophisticated investing techniques and opportunities to both individual and institutional participants. With our knowledge and dedication to quality, we hope to be a valued partner in assisting our clients in reaching their financial objectives.
+                <p > At {{ config('app.full_company_name') }}, we provide a wide range of hedge fund services to fulfil our clients' diversified investment demands. Our hedge fund services are intended to offer sophisticated investing techniques and opportunities to both individual and institutional participants. With our knowledge and dedication to quality, we hope to be a valued partner in assisting our clients in reaching their financial objectives.
 
                 </p>
               </div>
@@ -64,7 +64,7 @@
               </div>
 
               <div class="post-prev-text no-border">
-                <p > {{config('app.short_company_name')}} is dedicated to providing superior hedge fund services that include investment knowledge, risk management, and client-centric solutions. Trust us to help you navigate the difficult world of hedge fund investments.
+                <p > {{ config('app.full_company_name') }} is dedicated to providing superior hedge fund services that include investment knowledge, risk management, and client-centric solutions. Trust us to help you navigate the difficult world of hedge fund investments.
 
                 </p>
               </div>

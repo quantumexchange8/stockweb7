@@ -33,7 +33,7 @@
                         </div>
                         <div class="line-3-150"></div>
                         <div class="title-fs-23 mt-20 ">
-                            At {{config('app.short_company_name')}}, we take pride in offering a range of special services designed to meet the specific and unique needs of our clients. With our extensive expertise and commitment to excellence, we strive to provide comprehensive investment solutions that foster financial growth and security. Some of our specialised services include:
+                            At {{ config('app.full_company_name') }}, we take pride in offering a range of special services designed to meet the specific and unique needs of our clients. With our extensive expertise and commitment to excellence, we strive to provide comprehensive investment solutions that foster financial growth and security. Some of our specialised services include:
                         </div>
                         
                         </div>
@@ -65,7 +65,7 @@
                           <h3><span class="bold">ESTATE PLANNING </span></h3>
                       </div>
                       <div class="mt-20 ">
-                        At {{config('app.short_company_name')}} we understand that in order to ensure the financial security of future generations, estate..
+                        At {{ config('app.full_company_name') }} we understand that in order to ensure the financial security of future generations, estate..
                       </div>
                       <a href="{{url('service/estate-planning')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>
                     </div>
@@ -79,7 +79,7 @@
                           <h3><span class="bold">RETIREMENT PLANNING</span></h3>
                       </div>
                       <div  class="mt-20 ">
-                        One of the most important aspects of successful wealth management at {{config('app.short_company_name')}} is the ability to..
+                        One of the most important aspects of successful wealth management at {{ config('app.full_company_name') }} is the ability to..
                       </div>
                       <a href="{{url('service/retirement-planning')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>
                     </div>
@@ -96,7 +96,7 @@
                           <h3><span class="bold">CAPITAL GROWTH SERVICES</span></h3>
                       </div>
                       <div  class="mt-20 ">
-                        {{config('app.short_company_name')}} provides a wide range of Capital Growth services to help our clients reach their financial..
+                        {{ config('app.full_company_name') }} provides a wide range of Capital Growth services to help our clients reach their financial..
                       </div>
                       <a href="{{url('service/capital-growth-service')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>
                     </div>
@@ -110,7 +110,7 @@
                           <h3><span class="bold">HEDGE FUND SERVICES</span></h3>
                       </div>
                       <div class="mt-20 ">
-                        At {{config('app.short_company_name')}}, we provide a wide range of hedge fund services to fulfil our clients' diversified investment.. 
+                        At {{ config('app.full_company_name') }}, we provide a wide range of hedge fund services to fulfil our clients' diversified investment.. 
                       </div>
                       <a href="{{url('service/hedge-fund')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>
                     </div>
@@ -124,7 +124,7 @@
                           <h3><span class="bold">TRUST SERVICES</span></h3>
                       </div>
                       <div class="mt-20 ">
-                        {{config('app.short_company_name')}} provides a wide range of trust services to fulfil the different demands of our clients. Our trust..
+                        {{ config('app.full_company_name') }} provides a wide range of trust services to fulfil the different demands of our clients. Our trust..
                       </div>
                       <a href="{{url('service/trust-service')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>
                     </div>
@@ -157,7 +157,7 @@
                           <h3><span class="bold">DISCRETIONARY MANAGEMENT SERVICES</span></h3>
                       </div>
                       <div >
-                        {{config('app.short_company_name')}} is a financial services company that provides a variety of services, including discretionary.. 
+                        {{ config('app.full_company_name') }} is a financial services company that provides a variety of services, including discretionary.. 
                       </div>
                       <a href="{{url('service/discretionary-management-services')}}"><button type="button" class="btn btn-default btn-sm mt-5">Read More</button></a>
                     </div>

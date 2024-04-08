@@ -30,9 +30,9 @@
                       <span class="bold"> Philanthropy</span> 
                     </div>
                     <div class="line-3-100"></div>
-                    <div class="fes2-text-cont ">{{config('app.short_company_name')}} is dedicated to make a meaningful contribution to society through its philanthropic initiatives. The company is actively involved in philanthropic public welfare activities, displaying its commitment to give back to the community.</div>
+                    <div >{{ config('app.full_company_name') }} is dedicated to make a meaningful contribution to society through its philanthropic initiatives. The company is actively involved in philanthropic public welfare activities, displaying its commitment to give back to the community.</div>
                     <div class="mt-30">
-                        <div class="fes2-text-cont bold">Here are some important highlights of {{config('app.full_company_name')}}'s Philanthropic efforts:</div>
+                        <div class="fes2-text-cont">Here are some important highlights of {{config('app.full_company_name')}} Philanthropic efforts:</div>
  
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                             Financial <span class="bold">Assistance</span> 
                         </div>
                         <div class="line-3-100"></div>
-                        <div class="fes2-text-cont ">{{config('app.short_company_name')}} offers financial support to numerous philanthropic organisations and activities. By providing financial assistance, the corporation contributes to the growth and sustainability of these organisations, allowing them to continue out their critical work. </div>
+                        <div >{{ config('app.full_company_name') }} offers financial support to numerous philanthropic organisations and activities. By providing financial assistance, the corporation contributes to the growth and sustainability of these organisations, allowing them to continue out their critical work. </div>
                     </div>
             </div>
                 <div class="col-md-6 right-50 wow fadeInLeft">
@@ -71,7 +71,7 @@
                             <span class="bold"> Activities</span>
                         </div>
                         <div class="line-3-100"></div>
-                        <div class="fes2-text-cont ">The corporation actively supports education, poverty alleviation, healthcare, and environmental conservation. {{config('app.short_company_name')}} recognises the importance of these sectors in creating a better society and tries to make a significant contribution. </div>
+                        <div >The corporation actively supports education, poverty alleviation, healthcare, and environmental conservation. {{ config('app.full_company_name') }} recognises the importance of these sectors in creating a better society and tries to make a significant contribution. </div>
                     </div>
             </div>
             <div class="col-md-6 wow fadeInRight">
@@ -92,8 +92,10 @@
                             Corporate Social <span class="bold"> Responsibility</span> 
                         </div>
                         <div class="line-3-100"></div>
-                        <div class="fes2-text-cont ">{{config('app.short_company_name')}} prioritises corporate social responsibility by promoting sustainable practices and activities. The company aspires to reduce its environmental effect, promote ethical business practices, and support social causes that share its ideals. 
-                        </div>
+                        <div >{{ config('app.full_company_name') }} prioritises corporate social responsibility by promoting sustainable practices and activities. The company aspires to reduce its environmental effect, promote ethical business practices, and support social causes that shares its ideals. 
+                        
+                        </div><br>
+                        <div>{{ config('app.full_company_name') }} charitable efforts highlight its commitment to corporate social responsibility and its desire to make a positive difference in the lives of individuals and communities.</div>
                     </div>
             </div>
                 <div class="col-md-6 right-50 wow fadeInLeft">
@@ -115,7 +117,7 @@
                             <span class="bold"> Engagement</span>
                         </div>
                         <div class="line-3-100"></div>
-                        <div class="fes2-text-cont "> {{config('app.short_company_name')}} encourages employees to engage in philanthropic initiatives. The organisation organises volunteer programmes and projects that allow employees to donate their time and expertise to a variety of philanthropic causes. This not only benefits the society but also instils a sense of purpose and fulfilment in personnel. </div>
+                        <div > {{ config('app.full_company_name') }} encourages employees to engage in philanthropic initiatives. The company organises volunteer programmes and projects that allow employees to donate their time and expertise to a variety of philanthropic causes. This not only benefits the society but also instils a sense of purpose and fulfilment in personnel. </div>
                     </div>
             </div>
             <div class="col-md-6 wow fadeInRight">
@@ -136,7 +138,7 @@
                             Partnerships & <span class="bold">Collaborations</span> 
                         </div>
                         <div class="line-3-100"></div>
-                        <div class="fes2-text-cont ">{{config('app.short_company_name')}} works with other organisations in the financial sector and beyond to enhance the effect of its charitable initiatives. By collaborating with like-minded organisations, the firm may combine its resources, skills, and networks to more effectively address social concerns.
+                        <div >{{ config('app.full_company_name') }} works with other organisations in the financial sector and beyond to enhance the effect of its charitable initiatives. By collaborating with like-minded organisations, the firm may combine its resources, skills, and networks to more effectively address social concerns.
                         </div>
                     </div>
             </div>
@@ -145,9 +147,6 @@
                     <div class="ads-img-cont" >
                         <img src="{{asset('assets/images/partnerships.jpg')}}" alt="img">
                     </div>
-                </div>
-                <div class="col-md-12 text-center mb-50">
-                    <div class="fes2-text-cont">{{config('app.short_company_name')}}'s charitable efforts highlight its commitment to corporate social responsibility and its desire to make a positive difference in the lives of individuals and communities.</div>
                 </div>
         </div>
     </div>
