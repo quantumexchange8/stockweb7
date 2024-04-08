@@ -117,7 +117,7 @@
                             <span class="bold"> Engagement</span>
                         </div>
                         <div class="line-3-100"></div>
-                        <div > {{ config('app.full_company_name') }} encourages employees to engage in philanthropic initiatives. The company organises volunteer programmes and projects that allow employees to donate their time and expertise to a variety of philanthropic causes. This not only benefits the society but also instils a sense of purpose and fulfilment in personnel. </div>
+                        <div > {{ config('app.full_company_name') }} encourages employees to engage in philanthropic initiatives. The company organises volunteer programmes and projects that allow employees to donate their time and expertise to a variety of philanthropic causes. This not only benefits society but also instils a sense of purpose and fulfilment in personnel. </div>
                     </div>
             </div>
             <div class="col-md-6 wow fadeInRight">

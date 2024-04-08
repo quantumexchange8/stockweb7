@@ -36,7 +36,7 @@
               </div>
                 
               <div class="post-prev-title">
-                <h3 class="uppercase">Mergers & Acquisitions</h3>
+                <h3 >Mergers & Acquisitions</h3>
               </div>
                 
               <div class="post-prev-text no-border pt-20">
@@ -92,7 +92,7 @@
                 </div>
                   
                 <div class="post-prev-title">
-                  <h3 class="uppercase"><a href="{{url('service/retirement-planning')}}">Retirement Planning
+                  <h3 ><a href="{{url('service/retirement-planning')}}">Retirement Planning
                 </a></h3>
                 </div>
 
@@ -106,7 +106,7 @@
                 </div>
                   
                 <div class="post-prev-title">
-                  <h3 class="uppercase"><a href="{{url('service/discretionary-management-services')}}">Discretionary Management Services</a></h3>
+                  <h3 ><a href="{{url('service/discretionary-management-services')}}">Discretionary Management Services</a></h3>
                 </div>
 
               </div>
@@ -119,7 +119,7 @@
                 </div>
                   
                 <div class="post-prev-title">
-                  <h3 class="uppercase"><a href="{{url('service/estate-planning')}}">Estate Planning   </a></h3>
+                  <h3 ><a href="{{url('service/estate-planning')}}">Estate Planning   </a></h3>
                 </div>
               </div>
               

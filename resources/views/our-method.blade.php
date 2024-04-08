@@ -87,7 +87,7 @@
                                     <div class="fes2-main-text-cont">
                                         <div class="title-fs-45">
                                              Comprehensive Investment<br>
-                                            <span class="bold"> strategies</span>
+                                            <span class="bold"> Strategies</span>
                                         </div>
                                         <div class="line-3-100"></div>
                                         <div class="fes2-text-cont"> Our skilled specialists use comprehensive investment techniques to identify unique market opportunities. We perform extensive research, analyse market trends, and evaluate risk considerations in order to make sound investment selections. Our goal is to provide attractive risk-adjusted returns to our clients. </div>
@@ -116,7 +116,7 @@
                         <div>
                      
                         <div class="fes2-text-cont text-center">
-                            {{config('app.full_company_name')}}'s methods are the cornerstone of our success. We are dedicated to providing exceptional services and guiding our clients through the difficult world of investment and financial management. Trust us to be your partner in attaining your financial goals.
+                            {{config('app.full_company_name')}} methods are the cornerstone of our success. We are dedicated to providing exceptional services and guiding our clients through the difficult world of investment and financial management. Trust us to be your partner in attaining your financial goals.
 
                         </div>
                         

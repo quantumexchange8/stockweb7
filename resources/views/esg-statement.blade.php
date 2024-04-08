@@ -77,9 +77,13 @@
                         </ul>
                     </div>
                     <div class="tab-pane fade in active text-color-darkgrey" id="overview">
-                        <p>With a holistic approach to development, infrastructure, and environmental demands, {{ config('app.full_company_name') }}'s work helps increase mobility, enhance communities, build resilience, and contribute to economic vitality. </p>
-                        <p> These are all things that are accomplished through the organization's work. Throughout all of our markets, services, and activities, we incorporate sustainability and operate as stewards of the firm, ensuring that {{ config('app.full_company_name') }} is always in a better position for the generations that will come after us.</p>
-                        <p>{{ config('app.full_company_name') }} is profoundly rooted in the Environmental, Social, and Governance (ESG) framework, which is thoroughly embedded in the fabric of the company thanks to its Generational Company philosophy and our historic Core Values.</p>
+                        <p >
+                            Corporations are placing more significance on ESG obligations, which encompass environmental, social, and governance aspects. These agreements demonstrate a company's unwavering commitment to integrating sustainability, social responsibility, and ethical governance standards into its investing plans.
+                          </p>
+                          <p >Investment businesses that prioritise ESG commitments seek to invest in companies that exhibit robust environmental practices, including carbon emissions reduction, resource conservation, and promotion of renewable energy. In addition, they take into account social aspects such as labour practices, diversity and inclusion, and community engagement. Additionally, the assessment considers governance principles such as clear and open reporting, a diverse board, and ethical leadership.
+                          </p>
+                          <p >By incorporating environmental, social, and governance (ESG) factors into their investment choices, companies can ensure that their portfolios are in line with sustainable and ethical principles. This technique not only helps to reduce risks related to environmental and social issues but also contributes to the production of long-term value. Investors are progressively acknowledging the significance of ESG commitments and are actively searching for investment firms that prioritise these elements.</p>
+                          <p >ESG commitments for investment businesses encompass the integration of environmental, social, and governance factors into their investing strategies, with the aim of fostering sustainability, social responsibility, and ethical conduct. </p>           
                     </div>
                   </div>
             </div>

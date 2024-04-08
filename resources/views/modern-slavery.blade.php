@@ -43,7 +43,7 @@
               <div class="post-prev-title">
                 <h3>DISCLAIMER </h3>
                 <div class="post-prev-info">
-                  <a href="#">on Modern Slavery for {{config('app.full_company_name')}}</a>
+                  on Modern Slavery for {{config('app.full_company_name')}}
                 </div>
               </div>
             </div>
@@ -66,7 +66,7 @@
               <div class="post-prev-title">
                 <h3>DEDICATED TO</h3>
                 <div class="post-prev-info">
-                  <a href="#">Prohibiting Slavery Practices</a>
+                  Prohibiting Slavery Practices
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@
             <div class="col-md-4 blog2-post-title-cont">
         
               <div class="post-prev-title">
-                <h3><a href="blog-single-sidebar-right.html">TAKING CARE</a></h3>
+                <h3>TAKING CARE</h3>
                 <div class="post-prev-info">
                      in the Supply Chain
                 </div>
@@ -109,7 +109,7 @@
               <div class="col-md-4 blog2-post-title-cont">
           
                 <div class="post-prev-title">
-                  <h3><a href="blog-single-sidebar-right.html">RULES</a></h3>
+                  <h3>RULES</h3>
                   <div class="post-prev-info">
                    & Guidelines
                   </div>
@@ -131,7 +131,7 @@
               <div class="col-md-4 blog2-post-title-cont">
           
                 <div class="post-prev-title">
-                  <h3><a href="blog-single-sidebar-right.html">OPENNESS</a></h3>
+                  <h3>OPENNESS</h3>
                   <div class="post-prev-info">
                     and Responsibility
                   </div>
@@ -153,7 +153,7 @@
               <div class="col-md-4 blog2-post-title-cont">
           
                 <div class="post-prev-title">
-                  <h3><a href="blog-single-sidebar-right.html">WORKING TOGETHER </a></h3>
+                  <h3>WORKING TOGETHER</h3>
                   <div class="post-prev-info">
                     and advocating
                   </div>
@@ -174,7 +174,7 @@
               <div class="col-md-4 blog2-post-title-cont">
           
                 <div class="post-prev-title">
-                  <h3><a href="blog-single-sidebar-right.html">CONSTANT </a></h3>
+                  <h3>CONSTANT</h3>
                   <div class="post-prev-info">
                     ENHANCEMENT
                   </div>

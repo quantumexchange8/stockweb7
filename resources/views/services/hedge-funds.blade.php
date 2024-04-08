@@ -36,18 +36,18 @@
               </div>
                 
               <div class="post-prev-title">
-                <h3 class="uppercase">Hedge Fund Services</h3>
+                <h3 >Hedge Fund Services</h3>
               </div>
                 
               <div class="post-prev-text no-border pt-20">
-                <p > At {{ config('app.full_company_name') }}, we provide a wide range of hedge fund services to fulfil our clients' diversified investment demands. Our hedge fund services are intended to offer sophisticated investing techniques and opportunities to both individual and institutional participants. With our knowledge and dedication to quality, we hope to be a valued partner in assisting our clients in reaching their financial objectives.
+                <p > At {{ config('app.full_company_name') }}, we provide a wide range of hedge fund services to fulfil our clients' diversified investment demands. Our hedge fund services are intended to offer sophisticated investing techniques and opportunities to both individual and institutional participants. As a trusted partner, we are committed to helping our clients achieve their financial goals through our expertise and unwavering commitment to excellence. We hope to be a valued partner in assisting our clients in reaching their financial objectives.
 
                 </p>
               </div>
 
               <hr class=" mb-30">
               <div class="post-prev-title">
-                <h3>Key features of our Hedge Fund Services:</h3>
+                <h3>Key features of our hedge fund services:</h3>
                 <div class="mt-10">
                     <strong>Investment Expertise : </strong>
                     <p>Our skilled investment specialists carefully analyse market trends to identify investment opportunities that would offer good risk-adjusted returns. To make educated investing decisions, we take a systematic approach and draw on our broad research capabilities.</p>
@@ -57,14 +57,14 @@
                     <p>Our Hedge fund strategies enable investors to diversify their portfolios by investing in a variety of asset types, such as equities, fixed income, commodities, and derivatives. This diversification serves to reduce risk while increasing possible returns.</p>
                 </div>
                 <div class="mt-10">
-                    <strong>Alternative Investment strategies : </strong>
+                    <strong>Alternative Investment Strategies : </strong>
                     <p>Our hedge fund services offer access to alternative investment methods that are not typically available through regular investment vehicles. Long/short equities, event-driven, global macro, and quantitative strategies are some of the options. By incorporating these tactics, our investors may be able to capitalise on unique market opportunities and generate new capital.</p>
                 </div>
                 <hr class=" mb-30">
               </div>
 
               <div class="post-prev-text no-border">
-                <p > {{ config('app.full_company_name') }} is dedicated to providing superior hedge fund services that include investment knowledge, risk management, and client-centric solutions. Trust us to help you navigate the difficult world of hedge fund investments.
+                <p > {{ config('app.full_company_name') }} is dedicated to providing superior hedge fund services that include investment knowledge, risk management, and client-centric solutions. Allow us to help you navigate the difficult world of hedge fund investments.
 
                 </p>
               </div>
@@ -96,7 +96,7 @@
                 </div>
                   
                 <div class="post-prev-title">
-                  <h3 class="uppercase"><a href="{{url('service/merger-acquisition')}}">Mergers & Acquisitions
+                  <h3 ><a href="{{url('service/merger-acquisition')}}">Mergers & Acquisitions
                 </a></h3>
                 </div>
 
@@ -110,7 +110,7 @@
                 </div>
                   
                 <div class="post-prev-title">
-                  <h3 class="uppercase"><a href="{{url('service/tax-efficient-investment')}}">Tax-efficient Investments  </a></h3>
+                  <h3 ><a href="{{url('service/tax-efficient-investment')}}">Tax-efficient Investments  </a></h3>
                 </div>
 
               </div>
@@ -123,7 +123,7 @@
                 </div>
                   
                 <div class="post-prev-title">
-                  <h3 class="uppercase"><a href="{{url('service/estate-planning')}}">Estate Planning   </a></h3>
+                  <h3 ><a href="{{url('service/estate-planning')}}">Estate Planning   </a></h3>
                 </div>
               </div>
               
