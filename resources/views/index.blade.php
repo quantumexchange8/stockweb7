@@ -29,7 +29,7 @@
                     data-splitout="none"
                     data-elementdelay="0.1"
                     data-endelementdelay="0.1"
-                    style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">WE ARE <span class="bold uppercase">{{ config('app.full_company_name') }}</span>
+                    style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">WE ARE <span class="bold uppercase">{{ config('app.short_company_name') }}</span>
                   </div>
                   
                   <!-- LAYER NR. 2 -->
