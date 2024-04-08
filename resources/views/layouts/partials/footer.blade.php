@@ -43,7 +43,7 @@ Sheung Wan, Hong Kong
       </div>
       
       <div class="col-md-3 col-sm-3 widget">
-        <h4>SERVICES</h4>
+        <h4>&nbsp;</h4>
           <ul class="links-list a-text-cont" >
             <li><a href="{{url('service/hedge-fund')}}">HEDGE FUNDS</a></li>
             <li><a href="{{url('service/trust-service')}}">TRUST SERVICES</a></li>
