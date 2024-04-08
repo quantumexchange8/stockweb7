@@ -37,10 +37,10 @@
                       </div>            
                       <div class="col-xs-12 col-sm-8 col-md-8">
                         <div class="fes4-box wow fadeInRight" data-wow-delay="200ms">
-                              <p class="title-fs-35 text-justify">
+                              <p class="title-fs-35 ">
                                 Since we first opened our doors in 2020, {{config('app.full_company_name')}} has steadily developed a reputation for being the go-to resource for investors who are looking for information before it is released to the public. The company provides a combination of excellent returns and sustainable growth for its clients.
                               </p>
-                              <p class="title-fs-35 text-justify">
+                              <p class="title-fs-35 ">
                                 There are those who have been where you are, so you don't need to face this challenge alone. Join us now and allow us to bring you to a better future by guiding you through the process.
                               </p>
                         </div>
@@ -58,32 +58,31 @@
                     <span class="bold uppercase">{{config('app.short_company_name')}}?</span>
                 </div>
                 <div class="line-3-100"></div>
-                <div class="fes2-text-cont text-justify">
-                  When considering the offering of wealth management services, it is of the utmost importance to choose a company that possesses an excellent track record, a comprehensive variety of offerings, and an approach that is centred on the customer. As a major financial institution, {{config('app.short_company_name')}} provides a compelling proposal for individuals who are looking for services related to wealth management.
-                </div>
+                  <p>When considering the offering of wealth management services, it is of the utmost importance to choose a company that possesses an excellent track record, a comprehensive variety of offerings, and an approach that is centred on the client. As a major financial institution, {{config('app.short_company_name')}} provides a compelling proposal for individuals who are looking for services related to wealth management.</p>
+                  
                 <p class="mt-10 bold">Some of the reasons why a client ought to take into consideration Guolian Securities Co. Ltd. are as follows: </p>
               </div>
             </div>
             <div class="row">
               <div class="col-md-6">
                 <ul class="icon-list">
-                  <li><i class="fa fa-angle-right"></i><span class="bold"> Reputation and Expertise : </span></li><p class="text-justify">{{config('app.short_company_name')}} is renowned for its excellent reputation and substantial competence in the field of finance which it has earned over the years. The capacity of the firm to efficiently manage their wealth is something that clients can have faith in because it has a track record of offering high-quality services and a team of specialists with years of experience.</p>
-                  <li class="mt-10"><i class="fa fa-angle-right"></i><span class="bold">Diverse Range Of Services : </span> </li><p class="text-justify">The wealth management services offered by Guolian Securities Co. Ltd. are extensive and varied, and they are tailored to meet the specific requirements and objectives of each individual customer. We provide a full suite of solutions to assist clients in accomplishing their financial goals. These solutions include investment advice services, estate planning, and risk management.</p> 
+                  <li><i class="fa fa-angle-right"></i><span class="bold"> Reputation and Expertise : </span></li><p >{{config('app.short_company_name')}} is renowned for its excellent reputation and substantial competence in the field of finance which it has earned over the years. The capacity of the firm to efficiently manage their wealth is something that clients can have faith in because it has a track record of offering high-quality services and a team of specialists with years of experience.</p>
+                  <li class="mt-10"><i class="fa fa-angle-right"></i><span class="bold">Diverse Range Of Services : </span> </li><p >The wealth management services offered by Guolian Securities Co. Ltd. are extensive and varied, and they are tailored to meet the specific requirements and objectives of each individual client. We provide a full suite of solutions to assist clients in accomplishing their financial goals. These solutions include investment advice services, estate planning, and risk management.</p> 
                 </ul>
               </div>
               <div class="col-md-6">
                 <ul class="icon-list">
-                  <li><i class="fa fa-angle-right"></i><span class="bold"> Customised Approach :  </span></li> <p class="text-justify">With the understanding that every customer has a unique set of financial circumstances and goals, {{config('app.short_company_name')}}  takes a personalised approach to the management of their clients' money. By taking the time to learn about the preferences, risk tolerance, and goals of the clients, the company is able to create strategies that are in line with the specific requirements of each unique client.</p>  
+                  <li><i class="fa fa-angle-right"></i><span class="bold"> Customised Approach :  </span></li> <p >With the understanding that every client has a unique set of financial circumstances and goals, {{config('app.short_company_name')}}  takes a personalised approach to the management of their clients' money. By taking the time to learn about the preferences, risk tolerance, and goals of the clients, the company is able to create strategies that are in line with the specific requirements of each unique client.</p>  
 
-                  <li class="mt-10"><i class="fa fa-angle-right"></i><span class="bold">Research and Analysis :  </span> </li><p class="text-justify"> The wealth management strategies that {{config('app.short_company_name')}} employs are informed by the company's extensive research capabilities and in-depth market analysis. With access to important insights and suggestions that are powered by data, clients are able to make informed decisions about their investments, which is a benefit to the clients.</p>
+                  <li class="mt-10"><i class="fa fa-angle-right"></i><span class="bold">Research and Analysis :  </span> </li><p > The wealth management strategies that {{config('app.short_company_name')}} employs are informed by the company's extensive research capabilities and in-depth market analysis. With access to important insights and suggestions that are powered by data, clients are able to make informed decisions about their investments, which is a benefit to the clients.</p>
                 </ul>
               </div>
 
             </div>
             <div class="col-md-12">
               <div>
-                <div class="fes2-text-cont text-justify">
-                  In conclusion, {{config('app.short_company_name')}} stands out as an appealing option for those seeking wealth management services due to its solid reputation, extensive offers, personalised approach, research-driven tactics, and unwavering commitment to customer satisfaction.
+                <div class="fes2-text-cont ">
+                  In conclusion, {{config('app.short_company_name')}} stands out as an appealing option for those seeking wealth management services due to its solid reputation, extensive offers, personalised approach, research-driven tactics, and unwavering commitment to client satisfaction.
                 </div>
                 
               </div>
@@ -101,7 +100,7 @@
                     <span class="bold uppercase"> Objectives:</span>
                 </div>
                 <div class="line-3-100"></div>
-                <div class="fes2-text-cont text-justify">The objectives of {{config('app.full_company_name')}} are to provide its clients with comprehensive brokerage services and wealth management solutions. {{config('app.short_company_name')}}, a major securities firm, intends to fulfil the following objectives:</div>
+                <div class="fes2-text-cont ">The objectives of {{config('app.full_company_name')}} are to provide its clients with comprehensive brokerage services and wealth management solutions. {{config('app.short_company_name')}}, a major securities firm, intends to fulfil the following objectives:</div>
 
             </div>
             </div>
@@ -118,7 +117,7 @@
 										<span class="bold">Satisfaction</span>
 									</div>
 									<div class="line-3-70"></div>
-									<div class="fes2-text-cont text-justify">{{config('app.short_company_name')}} seeks to suit its clients' diversified demands by providing a broad range of financial products and services. The organisation attempts to deliver personalised solutions that are consistent with each client's financial goals and risk tolerance.</div>
+									<div class="fes2-text-cont ">{{config('app.short_company_name')}} seeks to suit its clients' diversified demands by providing a broad range of financial products and services. The organisation attempts to deliver personalised solutions that are consistent with each client's financial goals and risk tolerance.</div>
 								</div>
 							</div>
               
@@ -204,14 +203,14 @@
                     <div class="col-md-12 col-sm-12">
                       <div class="fes1-box wow fadeIn" >
                 
-                        <p class="text-justify">
+                        <p >
                           {{config('app.full_company_name')}} places a high priority on Diversity, Equity, and Inclusion (DEI). We are committed to creating a diverse and inclusive workplace where all employees are appreciated, respected, and given equal opportunity for professional growth and development.  {{config('app.short_company_name')}} believes that a diverse workforce delivers a variety of perspectives and ideas, resulting in greater creativity and better decision-making. 
                         </p>
-                        <p class="text-justify">
+                        <p >
                           {{config('app.short_company_name')}} is committed to promoting equity and justice, ensuring that all employees have access to the resources and assistance they require for success.  {{config('app.short_company_name')}} aggressively seeks to provide an inclusive atmosphere in which people of all backgrounds feel encouraged to contribute their unique skills and experiences. 
                         </p>
-                        <p class="text-justify">
-                          Furthermore,  {{config('app.short_company_name')}} is devoted to incorporating DEI principles into its business procedures, guaranteeing that its services and products meet the different needs of its customers. By implementing DEI,  {{config('app.short_company_name')}} hopes to foster a more dynamic, collaborative, and empathic company culture while providing great value to its clients and stakeholders.
+                        <p >
+                          Furthermore,  {{config('app.short_company_name')}} is devoted to incorporating DEI principles into its business procedures, guaranteeing that its services and products meet the different needs of its clients. By implementing DEI,  {{config('app.short_company_name')}} hopes to foster a more dynamic, collaborative, and empathic company culture while providing great value to its clients and stakeholders.
                         </p>
                       </div>
                     </div>
@@ -245,13 +244,13 @@
                   </div>
                   <div class="line-3-100"></div>
               </div>
-                <p class="text-justify">
+                <p >
                   Corporations are placing more significance on ESG obligations, which encompass environmental, social, and governance aspects. These agreements demonstrate a company's unwavering commitment to integrating sustainability, social responsibility, and ethical governance standards into its investing plans.
                 </p>
-                <p class="text-justify">Investment businesses that prioritise ESG commitments seek to invest in companies that exhibit robust environmental practices, including carbon emissions reduction, resource conservation, and promotion of renewable energy. In addition, they take into account social aspects like as labour practices, diversity and inclusion, and community engagement. Additionally, the assessment considers governance principles such as clear and open reporting, a diverse board, and ethical leadership.
+                <p >Investment businesses that prioritise ESG commitments seek to invest in companies that exhibit robust environmental practices, including carbon emissions reduction, resource conservation, and promotion of renewable energy. In addition, they take into account social aspects like as labour practices, diversity and inclusion, and community engagement. Additionally, the assessment considers governance principles such as clear and open reporting, a diverse board, and ethical leadership.
                 </p>
-                <p class="text-justify">By incorporating environmental, social, and governance (ESG) factors into their investment choices, companies can ensure that their portfolios are in line with sustainable and ethical principles. This technique not only helps to reduce risks related to environmental and social issues but also contributes to the production of long-term value. Investors are progressively acknowledging the significance of ESG commitments and are actively searching for investment firms that prioritise these elements.</p>
-                <p class="text-justify">ESG commitments for investment businesses encompass the integration of environmental, social, and governance factors into their investing strategies, with the aim of fostering sustainability, social responsibility, and ethical conduct. </p> 
+                <p >By incorporating environmental, social, and governance (ESG) factors into their investment choices, companies can ensure that their portfolios are in line with sustainable and ethical principles. This technique not only helps to reduce risks related to environmental and social issues but also contributes to the production of long-term value. Investors are progressively acknowledging the significance of ESG commitments and are actively searching for investment firms that prioritise these elements.</p>
+                <p >ESG commitments for investment businesses encompass the integration of environmental, social, and governance factors into their investing strategies, with the aim of fostering sustainability, social responsibility, and ethical conduct. </p> 
               
               </div>
             </div><!--end of row-->

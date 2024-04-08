@@ -40,9 +40,9 @@
               </div>
                 
               <div class="post-prev-text no-border pt-20">
-                <p class="text-justify">At {{config('app.short_company_name')}} we understand that in order to ensure the financial security of future generations, estate planning is essential. The creation of a will, the establishment of trusts, the designation of beneficiaries, and the implementation of methods to minimise estate taxes are all fundamental components of proper estate planning. Clients have the ability to protect their wealth and ensure a seamless transfer of assets to their successors in accordance with their preferences if they take proactive measures to handle these problems.
+                <p >At {{config('app.short_company_name')}} we understand that in order to ensure the financial security of future generations, estate planning is essential. The creation of a will, the establishment of trusts, the designation of beneficiaries, and the implementation of methods to minimise estate taxes are all fundamental components of proper estate planning. Clients have the ability to protect their wealth and ensure a seamless transfer of assets to their successors in accordance with their preferences if they take proactive measures to handle these problems.
                 </p>
-                <p class="text-justify">We work alongside Estate Planning professionals to create detailed, bespoke strategies that align with our clients wishes, ensuring a smooth transferal of assets whilst minimising estate taxation. 
+                <p >We work alongside Estate Planning professionals to create detailed, bespoke strategies that align with our clients wishes, ensuring a smooth transferal of assets whilst minimising estate taxation. 
                 </p>
               </div>
             </div>

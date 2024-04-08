@@ -89,13 +89,13 @@
                 </div>
                 <div class="row wow fadeInDown">
                   <div class="col-md-12 pb-40">
-                    <p class="title-fs-20 text-justify">
-                      {{config('app.short_company_name')}} is a prominent private equity enterprise that is headquartered in Mainland China and operates out of Hong Kong.
+                    <p class="title-fs-20 ">
+                      {{config('app.full_company_name')}} is a prominent private equity enterprise that is headquartered in Mainland China and operates out of Hong Kong.
                     </p>
-                    <p class="title-fs-20 text-justify">
+                    <p class="title-fs-20 ">
                       Through the provision of strategic investments and financial knowledge, we are able to unlock the full potential of a wide range of firms operating in a variety of industries.
                     </p>
-                    <p class="title-fs-20 text-justify">
+                    <p class="title-fs-20 ">
                       We are committed to providing our clients with long-term value and generating growth, and we have the client-centric strategy and a great track record to back up our commitment to these goals.
                     </p>
                   </div>
@@ -130,10 +130,10 @@
           <div class="row">
             <div class="col-md-12">
               <div class="fes1-box wow fadeInUp" >
-                <p class="title-fs-18 text-justify">The mission of {{config('app.short_company_name')}} is to find attractive investment opportunities and to partner with innovative enterprises in order to fuel the success of such businesses. </p>
-                <p class="title-fs-18 text-justify">We work hard to accomplish our goal of providing great returns for our investors while also supporting sustainable growth and innovation within the businesses and industries that we support. </p>
-                <p class="title-fs-18 text-justify">Our team of seasoned professionals bring a wealth of expertise and understanding of the business to the table in order to steer our portfolio companies towards record profitability and the attainment of sustainable goals.</p>
-                <p class="title-fs-18 text-justify">{{config('app.short_company_name')}} is aware of the significance of comprehending the specific circumstances, requirements, outcomes, and objectives of each individual client. Through the application of specified financial objectives, comprehensive due diligence, and cutting-edge industry research, we actively assist our customers in growing their assets, protecting them, and managing them.</p>
+                <p class="title-fs-18 ">The mission of {{config('app.full_company_name')}} is to find attractive investment opportunities and to partner with innovative enterprises in order to fuel the success of such businesses. </p>
+                <p class="title-fs-18 ">We work hard to accomplish our goal of providing great returns for our investors while also supporting sustainable growth and innovation within the businesses and industries that we support. </p>
+                <p class="title-fs-18 ">Our team of seasoned professionals bring a wealth of expertise and understanding of the business to the table in order to steer our portfolio companies towards record profitability and the attainment of sustainable goals.</p>
+                <p class="title-fs-18 ">{{config('app.full_company_name')}} is aware of the significance of comprehending the specific circumstances, requirements, outcomes, and objectives of each individual client. Through the application of specified financial objectives, comprehensive due diligence, and cutting-edge industry research, we actively assist our customers in growing their assets, protecting them, and managing them.</p>
               </div>
             </div>
           </div>
@@ -153,7 +153,7 @@
                   <h2 class="section-title">OUR <span class="bold">SERVICES</span></h2>
                 </div>
                 <p class="mb-50 title-fs-18">
-                  In order to meet the specific needs of each of our customers, {{config('app.short_company_name')}} is pleased to offer a wide range of specialised services.
+                  In order to meet the specific needs of each of our customers, {{config('app.full_company_name')}} is pleased to offer a wide range of specialised services.
                 </p>
               
               </div>
@@ -168,9 +168,9 @@
                         <div class="icon icon-basic-lock"></div>
                       </div>
                       <h3>Financial Security</h3>
-                      <p class="text-justify">One of the most important aspects of the wealth management services that we provide is financial security. We take great satisfaction in ensuring that individuals and families are able to experience stability and peace of mind despite the dynamic nature of the evolving economic landscape. </p>
-                      <p class="text-justify">The ability to cover expenses, make investments for the future, and weather unanticipated financial problems without putting one's standard of life in jeopardy is the essence of what it means to be financially secure.</p>
-                      <p class="read-more-content text-justify">In order to achieve and maintain financial stability, it is necessary to take a holistic strategy that incorporates a variety of aspects of wealth management.</p>
+                      <p class="">One of the most important aspects of the wealth management services that we provide is financial security. We take great satisfaction in ensuring that individuals and families are able to experience stability and peace of mind despite the dynamic nature of the evolving economic landscape. </p>
+                      <p class="">The ability to cover expenses, make investments for the future, and weather unanticipated financial problems without putting one's standard of life in jeopardy is the essence of what it means to be financially secure.</p>
+                      <p class="read-more-content ">In order to achieve and maintain financial stability, it is necessary to take a holistic strategy that incorporates a variety of aspects of wealth management.</p>
                       <a class="button small gray-light btn-4 btn-4aa read-more-button" href="#">Read more..<span aria-hidden="true" class="button-icon-anim arrow_carrot-right"></span></a>
                     </div>
                   </div>
@@ -182,12 +182,12 @@
                           <div class="icon icon-basic-todo-txt"></div>
                         </div>
                         <h3>Portfolio Income</h3>
-                        <p class="text-justify">{{config('app.short_company_name')}} provides Portfolio Income Services as part of its suite of financial services. We are primarily engaged in securities-related activities and have six business segments, such as securities brokerage, asset management, securities investing, margin trading, share transfer agency, and other financial services.
+                        <p class="">{{config('app.full_company_name')}} provides Portfolio Income Services as part of its suite of financial services. We are primarily engaged in securities-related activities and have six business segments, such as securities brokerage, asset management, securities investing, margin trading, share transfer agency, and other financial services.
                         </p>
-                        <p class="read-more-content text-justify">Clients who use the Income Portfolio services can benefit from a wide selection of income-generating investment options. The company provides securities trading and brokerage services, letting clients to purchase and sell a variety of financial instruments. {{config('app.short_company_name')}} also offers financial leverage services, allowing clients to maximise their investment potential.
+                        <p class="read-more-content ">Clients who use the Portfolio services can benefit from a wide selection of income-generating investment options. The company provides securities trading and brokerage services, letting clients to purchase and sell a variety of financial instruments. {{config('app.full_company_name')}} also offers financial leverage services, allowing clients to maximise their investment potential.
                         </p>
-                        <p class="read-more-content text-justify">Furthermore, the organisation sells wealth management products, giving clients access to investment options that match their financial goals. {{config('app.short_company_name')}}'s Income Portfolio services are designed to help clients optimise their investment portfolios and reach their desired income levels.</p>
-                        <p class="read-more-content text-justify">Overall, {{config('app.short_company_name')}}'s Income Portfolio services offer clients a full range of financial solutions for managing their investments and generating income. Whether it is securities brokerage, asset management, or margin trading, the company seeks to suit its clients' different demands and assist them in successfully navigating the financial markets.</p>
+                        <p class="read-more-content ">Furthermore, the organisation sells wealth management products, giving clients access to investment options that match their financial goals. {{config('app.full_company_name')}} are designed to help clients optimise their investment portfolios and reach their desired income levels.</p>
+                        <p class="read-more-content ">Overall, {{config('app.full_company_name')}} offer clients a full range of financial solutions for managing their investments and generating income. Whether it is securities brokerage, asset management, or margin trading, the company seeks to suit its clients' different demands and assist them in successfully navigating the financial markets.</p>
                         <a class="button small gray-light btn-4 btn-4aa read-more-button" href="#">Read more..<span aria-hidden="true" class="button-icon-anim arrow_carrot-right"></span></a>
                       </div>
                     </div>
@@ -203,7 +203,7 @@
                         <div class="icon icon-ecommerce-graph1"></div>
                       </div>
                       <h3>Income Diversification</h3>
-                      <p class="text-justify mb-20">Investment diversification is a fundamental component of the financial services that {{config('app.short_company_name')}} provides to its clients. Through the diversification of their assets across a variety of asset classes, including equities, bonds, real estate, and commodities, our customers are able to reduce their exposure to risk and increase their potential for long-term development. Diversification serves as a hedge against the volatility of the market and the economic downturns that can occur, assisting in the preservation and growth of wealth over time.
+                      <p class=" mb-20">Investment diversification is a fundamental component of the financial services that {{config('app.full_company_name')}} provides to its clients. Through the diversification of their assets across a variety of asset classes, including equities, bonds, real estate, and commodities, our customers are able to reduce their exposure to risk and increase their potential for long-term development. Diversification serves as a hedge against the volatility of the market and the economic downturns that can occur, assisting in the preservation and growth of wealth over time.
                       </p>
                     </div>
                   </div>
@@ -215,23 +215,23 @@
                           <div class="icon icon-ecommerce-graph-increase"></div>
                         </div>
                         <h3>Passive Income</h3>
-                        <p class="text-justify">{{config('app.short_company_name')}}'s Passive Income services help clients generate income from their investment portfolios. The organisation provides a variety of passive income alternatives, allowing clients to earn money without actively participating in frequent investment activity.</p>
-                        <p class="bold text-justify">{{config('app.short_company_name')}} offers a variety of passive income services, including:</p>
+                        <p class="">{{config('app.full_company_name')}}'s Passive Income services help clients generate income from their investment portfolios. The organisation provides a variety of passive income alternatives, allowing clients to earn money without actively participating in frequent investment activity.</p>
+                        <p class="bold ">{{config('app.full_company_name')}} offers a variety of passive income services, including:</p>
             
                         <ul class="icon-list read-more-content">
                             <li><i class="fa fa-check"></i><span class="bold">Securities Investments: </span> Customers have the opportunity to invest in a wide variety of securities, including stocks, bonds, and mutual funds, in order to generate passive income through dividends, interest payments, or appreciation of their value.
 
                             </li>
-                            <li><i class="fa fa-check"></i><span class="bold">Asset Management:  </span>{{config('app.short_company_name')}} provides professional asset management services, where experienced portfolio managers handle clients' investments to generate passive income. These managers make strategic investment decisions on behalf of clients to maximize returns.
+                            <li><i class="fa fa-check"></i><span class="bold">Asset Management:  </span>{{config('app.full_company_name')}} provides professional asset management services, where experienced portfolio managers handle clients' investments to generate passive income. These managers make strategic investment decisions on behalf of clients to maximize returns.
                             </li>
-                            <li><i class="fa fa-check"></i><span class="bold">Dividend Investing:   </span>{{config('app.short_company_name')}} offers dividend-focused investment strategies, where clients can invest in dividend-paying stocks or funds. By doing so, they are able to generate a consistent passive income through the distribution of the profits made by the company.
+                            <li><i class="fa fa-check"></i><span class="bold">Dividend Investing:   </span>{{config('app.full_company_name')}} offers dividend-focused investment strategies, where clients can invest in dividend-paying stocks or funds. By doing so, they are able to generate a consistent passive income through the distribution of the profits made by the company.
                             </li>
-                            <li><i class="fa fa-check"></i><span class="bold">Real Estate Investment Trusts (REITs): </span>Real Estate Investment Trusts (REITs) are investment vehicles that hold and manage properties that generate income. {{config('app.short_company_name')}} offers access to these kinds of vehicles for our clients. Investing in real estate investment trusts (REITs) gives clients the opportunity to generate passive income through rental revenue and appreciation of their properties. 
+                            <li><i class="fa fa-check"></i><span class="bold">Real Estate Investment Trusts (REITs): </span>Real Estate Investment Trusts (REITs) are investment vehicles that hold and manage properties that generate income. {{config('app.full_company_name')}} offers access to these kinds of vehicles for our clients. Investing in real estate investment trusts (REITs) gives clients the opportunity to generate passive income through rental revenue and appreciation of their properties. 
                             </li>
                             <li><i class="fa fa-check"></i><span class="bold">Fixed Income Investments:</span> Customers have the opportunity to generate passive income by investing in fixed income instruments, such as bonds and treasury bills, which can generate interest payments on a regular basis.
                             </li>
                         </ul>
-                        <p class="read-more-content text-justify">Clients have the ability to diversify their investment portfolios and potentially earn income without actively managing their investments when they take advantage of the Passive Income services offered by {{config('app.short_company_name')}}. It is the intention of these services to supply customers with a consistent flow of passive income, so assisting them in accomplishing their preferred financial objectives.</p>
+                        <p class="read-more-content ">Clients have the ability to diversify their investment portfolios and potentially earn income without actively managing their investments when they take advantage of the Passive Income services offered by {{config('app.full_company_name')}}. It is the intention of these services to supply customers with a consistent flow of passive income, so assisting them in accomplishing their preferred financial objectives.</p>
                         <a class="button small gray-light btn-4 btn-4aa read-more-button" href="#">Read more..<span aria-hidden="true" class="button-icon-anim arrow_carrot-right"></span></a>
                       </div>
                     </div>

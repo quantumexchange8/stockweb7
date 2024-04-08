@@ -49,7 +49,7 @@
             </div>
               
             <div class="col-md-8">
-              <div class="blog2-post-prev-text text-justify">                     
+              <div class="blog2-post-prev-text ">                     
                 Human rights advocacy and the highest ethical standards are priorities for {{config('app.short_company_name')}}, and they permeate every facet of our business. As part of this commitment, we understand that modern slavery is a global problem and that effective solutions are required. As a result, we have created the disclaimer that follows to clarify our position on contemporary slavery:          
               </div>
             </div>
@@ -72,7 +72,7 @@
             </div>
               
             <div class="col-md-8">
-              <div class="blog2-post-prev-text text-justify">                     
+              <div class="blog2-post-prev-text ">                     
                 {{config('app.short_company_name')}} is committed to operating in a way that aligns with our core beliefs and values. We vehemently condemn modern slavery in all of its manifestations, including child labour, forced labour, and human trafficking.
               </div>
             </div>
@@ -95,7 +95,7 @@
             </div>
               
             <div class="col-md-8">
-              <div class="blog2-post-prev-text text-justify">                     
+              <div class="blog2-post-prev-text ">                     
                 We understand how critical it is to carefully examine our supply chain in order to spot and reduce any potential for modern slavery. We demand ethical business practices and a shared commitment to ending slavery from our suppliers and business partners.
               </div>
             </div>
@@ -117,7 +117,7 @@
               </div>
                 
               <div class="col-md-8">
-                <div class="blog2-post-prev-text text-justify">                     
+                <div class="blog2-post-prev-text ">                     
                     Strong standards and processes have been put in place by {{config('app.short_company_name')}} to stop any participation with modern slavery. These consist of policies for ethical sourcing, training programmes for staff members, and channels for reporting any issues pertaining to modern slavery.
 
                 </div>
@@ -139,7 +139,7 @@
               </div>
                 
               <div class="col-md-8">
-                <div class="blog2-post-prev-text text-justify">                     
+                <div class="blog2-post-prev-text ">                     
                     Our commitment to upholding accountability and transparency in our fight against modern slavery is unwavering. To make sure that our actions are in line with our commitment to human rights, we evaluate and analyse them on a regular basis.
 
                 </div>
@@ -161,7 +161,7 @@
               </div>
                 
               <div class="col-md-8">
-                <div class="blog2-post-prev-text text-justify">                     
+                <div class="blog2-post-prev-text ">                     
                   {{config('app.short_company_name')}} actively backs coalition projects and advocacy campaigns to fight contemporary slavery. In order to promote progress in this important field, we aim to interact with industry colleagues, relevant organisations, and stakeholders.
                 </div>
               </div>
@@ -182,7 +182,7 @@
               </div>
                 
               <div class="col-md-8">
-                <div class="blog2-post-prev-text text-justify">                     
+                <div class="blog2-post-prev-text ">                     
                     We are dedicated to enhancing our strategy for combating modern slavery on a constant basis. This entails keeping up with new best practices and adjusting our tactics to deal with this complicated problem in an efficient manner.
                 </div>
               </div>

@@ -40,7 +40,7 @@
               </div>
                 
               <div class="post-prev-text no-border pt-20">
-                <p class="text-justify"> {{config('app.short_company_name')}} provides a wide range of trust services to fulfil the different demands of our clients. Our trust services are intended to provide financial security, asset management, and investment solutions to people, businesses, and institutions. With our knowledge and dedication to quality, we hope to be a valued partner in assisting our clients in reaching their financial objectives.
+                <p > {{config('app.short_company_name')}} provides a wide range of trust services to fulfil the different demands of our clients. Our trust services are intended to provide financial security, asset management, and investment solutions to people, businesses, and institutions. With our knowledge and dedication to quality, we hope to be a valued partner in assisting our clients in reaching their financial objectives.
 
                 </p>
               </div>
@@ -64,7 +64,7 @@
               </div>
 
               <div class="post-prev-text no-border">
-                <p class="text-justify"> {{config('app.short_company_name')}} prioritises trust, transparency, and client satisfaction when providing trust services. Our experienced personnel are committed to providing great service and tailored solutions to each client's specific demands. Trust us to help you achieve financial success.
+                <p > {{config('app.short_company_name')}} prioritises trust, transparency, and client satisfaction when providing trust services. Our experienced personnel are committed to providing great service and tailored solutions to each client's specific demands. Trust us to help you achieve financial success.
 
                 </p>
               </div>

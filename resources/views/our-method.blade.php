@@ -31,7 +31,7 @@
                         </div>
                         <div class="line-3-100"></div>
                         <div class="fes2-text-cont">
-                            {{config('app.short_company_name')}} takes pride in its practical and dependable ways for investment and financial management success. Our approaches are intended to ensure that we give our clients with the best available services while also assisting them in meeting their financial goals.
+                            {{config('app.full_company_name')}} takes pride in its practical and dependable ways for investment and financial management success. Our approaches are intended to ensure that we give our clients with the best available services while also assisting them in meeting their financial goals.
                         </div>
                         
                         </div>
@@ -55,7 +55,7 @@
 											<span class="bold">Financing</span>
 										</div>
 										<div class="line-3-100"></div>
-										<div class="fes2-text-cont text-justify">Equity financing is one of our key strategies for raising capital. This allows us to boost our working capital and fund a variety of investment opportunities. Equity funding allows us to attract investors and shareholders who believe in our vision and want to be a part of our growing path.</div>
+										<div class="fes2-text-cont ">Equity financing is one of our key strategies for raising capital. This allows us to boost our working capital and fund a variety of investment opportunities. Equity funding allows us to attract investors and shareholders who believe in our vision and want to be a part of our growing path.</div>
 									</div>
 							</div>
               
@@ -66,7 +66,7 @@
                                         <span class="bold">Financing</span>
                                     </div>
                                     <div class="line-3-100"></div>
-                                    <div class="fes2-text-cont text-justify">In addition to equity financing, at {{config('app.short_company_name')}} we use a variety of debt financing strategies. This allows us to generate additional resources for investment and develop our operations. We could optimise our capital structure and financial flexibility by carefully controlling and strategically leveraging our debt.</div>
+                                    <div class="fes2-text-cont ">In addition to equity financing, at {{config('app.full_company_name')}} we use a variety of debt financing strategies. This allows us to generate additional resources for investment and develop our operations. We could optimise our capital structure and financial flexibility by carefully controlling and strategically leveraging our debt.</div>
                                 </div>
 				
 							</div>
@@ -116,7 +116,7 @@
                         <div>
                      
                         <div class="fes2-text-cont text-center">
-                            {{config('app.short_company_name')}}'s methods are the cornerstone of our success. We are dedicated to providing exceptional services and guiding our clients through the difficult world of investment and financial management. Trust us to be your partner in attaining your financial goals.
+                            {{config('app.full_company_name')}}'s methods are the cornerstone of our success. We are dedicated to providing exceptional services and guiding our clients through the difficult world of investment and financial management. Trust us to be your partner in attaining your financial goals.
 
                         </div>
                         
