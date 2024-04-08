@@ -37,7 +37,7 @@ Sheung Wan, Hong Kong
         <ul class="links-list a-text-cont" >
           <li><a href="{{url('service/tax-efficient-investment')}}">TAX EFFICIENT INVESTMENT</a></li>
           <li><a href="{{url('service/estate-planning')}}">ESTATE PLANNING</a></li>
-          <li><a href="{{url('service/retirement-plannin')}}">RETIREMENT PLANNING</a></li>
+          <li><a href="{{url('service/retirement-planning')}}">RETIREMENT PLANNING</a></li>
           <li><a href="{{url('service/capital-growth-service')}}">CAPITAL GROWTH SERVICE</a></li>
         </ul>
       </div>

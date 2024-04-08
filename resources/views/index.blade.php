@@ -121,7 +121,7 @@
                   <span class="bold"> OUR MISSION</span>
                 </div>
                 <div class="title-fs-25 mt-10">
-                  is to help you achieve your goals. 
+                  
                 </div>
                 <div class="line-3-100"></div>
               </div>
@@ -132,7 +132,7 @@
               <div class="fes1-box wow fadeInUp" >
                 <p class="title-fs-18 text-justify">The mission of {{config('app.short_company_name')}} is to find attractive investment opportunities and to partner with innovative enterprises in order to fuel the success of such businesses. </p>
                 <p class="title-fs-18 text-justify">We work hard to accomplish our goal of providing great returns for our investors while also supporting sustainable growth and innovation within the businesses and industries that we support. </p>
-                <p class="title-fs-18 text-justify">Our team of seasoned professionals brings a wealth of expertise and understanding of the business to the table in order to steer our portfolio companies towards record profitability and the attainment of sustainable goals.</p>
+                <p class="title-fs-18 text-justify">Our team of seasoned professionals bring a wealth of expertise and understanding of the business to the table in order to steer our portfolio companies towards record profitability and the attainment of sustainable goals.</p>
                 <p class="title-fs-18 text-justify">{{config('app.short_company_name')}} is aware of the significance of comprehending the specific circumstances, requirements, outcomes, and objectives of each individual client. Through the application of specified financial objectives, comprehensive due diligence, and cutting-edge industry research, we actively assist our customers in growing their assets, protecting them, and managing them.</p>
               </div>
             </div>
@@ -182,7 +182,7 @@
                           <div class="icon icon-basic-todo-txt"></div>
                         </div>
                         <h3>Portfolio Income</h3>
-                        <p class="text-justify">{{config('app.short_company_name')}} provides Income Portfolio services as part of its suite of financial services. We are primarily engaged in securities-related activities and have six business segments. {{config('app.short_company_name')}} provides Income Portfolio services such as securities brokerage, asset management, securities investing, margin trading, share transfer agency, and other financial services.
+                        <p class="text-justify">{{config('app.short_company_name')}} provides Portfolio Income Services as part of its suite of financial services. We are primarily engaged in securities-related activities and have six business segments, such as securities brokerage, asset management, securities investing, margin trading, share transfer agency, and other financial services.
                         </p>
                         <p class="read-more-content text-justify">Clients who use the Income Portfolio services can benefit from a wide selection of income-generating investment options. The company provides securities trading and brokerage services, letting clients to purchase and sell a variety of financial instruments. {{config('app.short_company_name')}} also offers financial leverage services, allowing clients to maximise their investment potential.
                         </p>
