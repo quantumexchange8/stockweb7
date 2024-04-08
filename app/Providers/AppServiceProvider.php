@@ -29,7 +29,7 @@ class AppServiceProvider extends ServiceProvider
 	public function boot()
 	{
     	Config::set('app.short_company_name', 'Guolian Securities');
-        Config::set('app.full_company_name', 'Guolian Securities International Capital Co. Limited');
+        Config::set('app.full_company_name', 'Guolian Securities');
         
         if (App::environment('production')) {
         	resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');

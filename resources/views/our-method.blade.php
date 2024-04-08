@@ -27,7 +27,7 @@
                         <div class="title-fs-45 uppercase keft-50">
                             Our
 
-                            <span class="bold uppercase"> Methods</span>
+                            <span class="bold uppercase"> Method</span>
                         </div>
                         <div class="line-3-100"></div>
                         <div class="fes2-text-cont">
