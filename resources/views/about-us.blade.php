@@ -107,18 +107,16 @@
           </div>
         </div>
 				<div class="page-section">
-					<div class="container-fluid">
+					<div class="container">
 						<div class="row">
             
-							<div class="col-md-6 wow fadeInLeft equal-height1">
-								<div class="fes2-main-text-cont">
+							<div class="col-md-6 wow fadeInLeft equal-height1 fes2-main-text-cont">
 									<div class="title-fs-45">
 										Client <br>
 										<span class="bold">Satisfaction</span>
 									</div>
 									<div class="line-3-70"></div>
 									<div class="fes2-text-cont ">{{ config('app.full_company_name') }} seeks to suit its clients' diversified demands by providing a broad range of financial products and services. The organisation attempts to deliver personalised solutions that are consistent with each client's financial goals and risk tolerance.</div>
-								</div>
 							</div>
               
 							<div class="col-md-6">
@@ -131,23 +129,23 @@
 					</div>
 				</div>
 				<div class="page-section">
-					<div class="container-fluid">
+					<div class="container">
 						<div class="row">
 							
-							<div class="col-md-6 left-50 wow fadeInRight equal-height1">
-									<div class="fes2-main-text-cont">
+							<div class="col-md-6 left-50 wow fadeInRight equal-height1 fes2-main-text-cont">
+									
 										<div class="title-fs-45">
 											Risk <br>
 											<span class="bold">Management</span>
 										</div>
 										<div class="line-3-100"></div>
 										<div class="fes2-text-cont">{{ config('app.full_company_name') }} lays a strong emphasis on risk management. The corporation has built a strong risk management framework with clear objectives, principles, and organisational structures. Guolian Securities aspires to defend its clients' interests while also maintaining operational stability by successfully managing risks.</div>
-									</div>
+									
 							</div>
               
               <div class="col-md-6 right-50">
 								<div class="row">
-									<div class="fes3-img equal-height" ></div>
+									<div class="fes3-img equal-height" style="max-width: 500px; float:right;" ></div>
 								</div>
 							</div>
               
@@ -155,18 +153,18 @@
 					</div>
 				</div>
         <div class="page-section">
-					<div class="container-fluid">
+					<div class="container">
 						<div class="row">
             
-							<div class="col-md-6 wow fadeInLeft equal-height1 ">
-								<div class="fes2-main-text-cont">
+							<div class="col-md-6 wow fadeInLeft equal-height1 fes2-main-text-cont">
+								
 									<div class="title-fs-45">
 										Compliance <br>
 										<span class="bold"> and Ethics</span>
 									</div>
 									<div class="line-3-70"></div>
 									<div class="fes2-text-cont">{{ config('app.full_company_name') }} has the highest levels of compliance and ethics in its operations. The company follows all applicable laws, regulations, and industry best practices to ensure transparency, fairness, and honesty in its interactions with clients, shareholders, and other stakeholders.</div>
-								</div>
+								
 							</div>
               
 							<div class="col-md-6">
@@ -184,7 +182,7 @@
           <div id="about" class="page-section">
             <div class="container fes1-cont">
               <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-12">
                 
                   <div class="row">
                     <div class="col-md-12">
@@ -220,38 +218,43 @@
                       
                 </div>
               
-                <div class="col-md-4 fes1-img-cont wow fadeInUp mb-20">
-                  <img src="{{asset('assets/images/diversity.jpg')}}" alt="img" >
-                </div>
+               
                 
             
               </div>
             </div>
           </div>
 
-        <!-- ENVIRONMENTAL & SOCIAL -->
-        <div class="page-section clearfix">
-          <div class="fes7-img-cont col-md-5">
-            <div class="fes7-img" style="background-image: url({{asset('assets/images/esg.jpg')}})"></div>
-          </div>
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6 col-md-offset-6 fes7-text-cont p-80-cont">
-                <div class="fes1-main-title-cont wow fadeInDown">
-                  <div class="title-fs-45 uppercase">Environmental & <br>
-                  <span class="bold"> Social Governance</span>
+          <div class="page-section">
+            <div class="container"  style="padding-bottom:30px;">
+              <div class="row">
+                
+                <div class="col-md-6 left-50 wow fadeInRight equal-height1">
+                    
+                      <div class="title-fs-45">
+                        Environmental &  <br>
+                        <span class="bold">Social Governance</span>
+                      </div>
+                      <div class="line-3-100"></div>
+                      <div class="fes2-text-cont">
+                        <p>With a holistic approach to development, infrastructure, and environmental demands, {{ config('app.full_company_name') }}'s work helps increase mobility, enhance communities, build resilience, and contribute to economic vitality. </p>
+                        <p> These are all things that are accomplished through the organization's work. Throughout all of our markets, services, and activities, we incorporate sustainability and operate as stewards of the firm, ensuring that {{ config('app.full_company_name') }} is always in a better position for the generations that will come after us.</p>
+                        <p>{{ config('app.full_company_name') }} is profoundly rooted in the Environmental, Social, and Governance (ESG) framework, which is thoroughly embedded in the fabric of the company thanks to its Generational Company philosophy and our historic Core Values.</p>
+                      </div>
+                    
+                </div>
+                
+                <div class="col-md-6 right-50">
+                  <div class="row">
+                    <div class="fes8-img equal-height" style="max-width: 500px; float:left; " ></div>
                   </div>
-                  <div class="line-3-100"></div>
-              </div>
-              <p>With a holistic approach to development, infrastructure, and environmental demands, {{ config('app.full_company_name') }}'s work helps increase mobility, enhance communities, build resilience, and contribute to economic vitality. </p>
-              <p> These are all things that are accomplished through the organization's work. Throughout all of our markets, services, and activities, we incorporate sustainability and operate as stewards of the firm, ensuring that {{ config('app.full_company_name') }} is always in a better position for the generations that will come after us.</p>
-              <p>{{ config('app.full_company_name') }} is profoundly rooted in the Environmental, Social, and Governance (ESG) framework, which is thoroughly embedded in the fabric of the company thanks to its Generational Company philosophy and our historic Core Values.</p>
+                </div>
                 
               </div>
-            </div><!--end of row-->
+            </div>
           </div>
-        </div>        
+
+       
 
 
 
