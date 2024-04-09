@@ -32,7 +32,7 @@
             <!-- POST ITEM -->
             <div class="blog-post wow fadeIn pb-50">
               <div class="post-prev-img">
-                <a href="#"><img src="{{asset('assets/images/retirement-plan.jpg')}}" alt="img"></a>
+                <img src="{{asset('assets/images/retirement-plan.jpg')}}" alt="img">
               </div>
                 
               <div class="post-prev-title">
