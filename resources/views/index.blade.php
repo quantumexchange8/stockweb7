@@ -104,7 +104,7 @@
    
             </div>
             <div class="col-md-5">
-                <img src="{{ asset('assets/images/intro.jpg')}}" alt="img" class="wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1s" >
+                <img src="{{ asset('assets/images/intro.jpg')}}" style="padding-top:100px;" alt="img" class="wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1s" >
             </div>
           </div>
         </div>

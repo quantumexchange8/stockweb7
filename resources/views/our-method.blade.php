@@ -116,7 +116,7 @@
                         <div>
                      
                         <div class="fes2-text-cont text-center">
-                            {{config('app.full_company_name')}} methods are the cornerstone of our success. We are dedicated to providing exceptional services and guiding our clients through the difficult world of investment and financial management. Trust us to be your partner in attaining your financial goals.
+                            {{config('app.full_company_name')}} methods are the cornerstone of our success. We are dedicated to providing exceptional services and guiding our clients through the difficult world of investment and financial management. Allow us to be your partner in attaining your financial goals.
 
                         </div>
                         
