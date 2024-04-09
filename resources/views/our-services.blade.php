@@ -45,7 +45,7 @@
                     <div class="fes4-box wow fadeIn" data-wow-delay="200ms">
                       <div class="fes4-title-cont" >
                           <div class="fes4-box-icon">
-                              <div class="fa fa-bank"></div>
+                              <div class="fa fa-bank" style="color:blue;"></div>
                           </div>
                           <h3><span class="bold">TAX-EFFICIENT INVESTMENTS</span></h3>
                
@@ -60,7 +60,7 @@
                     <div class="fes4-box wow fadeIn" data-wow-delay="200ms">
                       <div class="fes4-title-cont" >
                           <div class="fes4-box-icon">
-                              <div class="icon_house_alt"></div>
+                              <div class="icon_house_alt" style="color:purple;"></div>
                           </div>
                           <h3><span class="bold">ESTATE PLANNING </span></h3>
                       </div>
@@ -74,7 +74,7 @@
                     <div class="fes4-box wow fadeIn" data-wow-delay="200ms">
                       <div class="fes4-title-cont" >
                           <div class="fes4-box-icon">
-                              <div class="fa fa-wheelchair"></div>
+                              <div class="fa fa-wheelchair" style="color:red;"></div>
                           </div>
                           <h3><span class="bold">RETIREMENT PLANNING</span></h3>
                       </div>
@@ -91,7 +91,7 @@
                     <div class="fes4-box wow fadeIn" data-wow-delay="600ms">
                       <div class="fes4-title-cont" >
                           <div class="fes4-box-icon">
-                              <div class="fa fa-line-chart"></div>
+                              <div class="fa fa-line-chart" style="color:green;"></div>
                           </div>
                           <h3><span class="bold">CAPITAL GROWTH SERVICES</span></h3>
                       </div>
@@ -105,7 +105,7 @@
                     <div class="fes4-box wow fadeIn" data-wow-delay="800ms" >
                       <div class="fes4-title-cont" >
                           <div class="fes4-box-icon">
-                              <div class="fa fa-money"></div>
+                              <div class="fa fa-money" style="color: rgb(22, 100, 3);"></div>
                           </div>
                           <h3><span class="bold">HEDGE FUND SERVICES</span></h3>
                       </div>
@@ -119,7 +119,7 @@
                     <div class="fes4-box wow fadeIn" data-wow-delay="1000ms">
                       <div class="fes4-title-cont" >
                           <div class="fes4-box-icon">
-                              <div class="fa fa-users"></div>
+                              <div class="fa fa-users" style="color:orange;"></div>
                           </div>
                           <h3><span class="bold">TRUST SERVICES</span></h3>
                       </div>
@@ -137,7 +137,7 @@
                     <div class="fes4-box wow fadeIn" data-wow-delay="600ms">
                       <div class="fes4-title-cont" >
                           <div class="fes4-box-icon">
-                              <div class="fa fa-globe"></div>
+                              <div class="fa fa-globe" style="color:rgb(60, 0, 128);"></div>
                           </div>
                           <h3><span class="bold uppercase">Mergers & Acquisitions </span></h3>
                       </div>
@@ -151,7 +151,7 @@
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     <div class="fes4-box wow fadeIn" data-wow-delay="800ms" >
                       <div class="fes4-title-cont" >
-                          <div class="fes4-box-icon">
+                          <div class="fes4-box-icon" style="color:rgb(0, 128, 90);">
                               <div class="fa fa-slideshare"></div>
                           </div>
                           <h3><span class="bold">DISCRETIONARY MANAGEMENT SERVICES</span></h3>
