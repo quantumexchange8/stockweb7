@@ -33,6 +33,7 @@
             <div class="blog-post wow fadeIn pb-50">
               <div class="post-prev-img">
                 <img src="{{asset('assets/images/trust.jpg')}}" alt="img">
+              </div>
                 
               <div class="post-prev-title">
                 <h3 >Trust Services</h3>
