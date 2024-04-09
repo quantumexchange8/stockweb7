@@ -6067,6 +6067,7 @@ blockquote.custom-blockquote:before {
 
 .work-prev {
     text-align: left;
+    color: #cf000f;
 }
 
 .work-all {
@@ -6075,6 +6076,7 @@ blockquote.custom-blockquote:before {
 
 .work-next {
     text-align: right;
+    color: #cf000f;
 }
 
 
