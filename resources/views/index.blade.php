@@ -83,7 +83,7 @@
               <div class="col-md-12">
                 <div class="fes1-main-title-cont wow fadeInDown">
                   <div class="title-fs-60">
-                    <span class="bold"> INTRO</span>
+                    <span class="bold">INTRODUCTION</span>
                   </div>
                   <div class="line-3-100"></div>
                 </div>

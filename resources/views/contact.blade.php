@@ -61,7 +61,7 @@ Sheung Wan, Hong Kong</p>
               </div>
               <div class="cis-text">
                 <h3><span class="bold">CALL US</span></h3>
-                <p></p>
+                <p><a href="tel:+85237027645">+85237027645</a></p>
               </div>
             </div>
           </div>
