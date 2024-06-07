@@ -71,7 +71,7 @@ Sheung Wan, Hong Kong. Your use of this website, including the content, material
     <div class="footer-2-copy-cont clearfix">
       <!-- Copyright -->
       <div class="left">
-        <a class="footer-2-copy" href="#" target="_blank">{{ config('app.full_company_name') }}  &copy; 2020 - {{ now()->year }}</a>
+        <a class="footer-2-copy" href="#" target="_blank">{{ config('app.full_company_name') }}  &copy; {{ now()->year }}</a>
       </div>
     </div>   
      
